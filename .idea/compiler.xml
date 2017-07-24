@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jsponge-common" />
+        <module name="jsponge-constant" />
+        <module name="jsponge-dao" />
+        <module name="jsponge-external" />
+        <module name="jsponge-infra" />
+        <module name="jsponge-interface" />
+        <module name="jsponge-service" />
+        <module name="jsponge-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="jsponge" target="1.7" />
+      <module name="jsponge-common" target="1.7" />
+      <module name="jsponge-constant" target="1.7" />
+      <module name="jsponge-dao" target="1.7" />
+      <module name="jsponge-exception" target="1.7" />
+      <module name="jsponge-generator" target="1.7" />
+      <module name="jsponge-hessian" target="1.7" />
+      <module name="jsponge-infra" target="1.7" />
+      <module name="jsponge-outside" target="1.7" />
+      <module name="jsponge-quartz" target="1.7" />
+      <module name="jsponge-service" target="1.7" />
+      <module name="jsponge-util" target="1.7" />
+      <module name="jsponge-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

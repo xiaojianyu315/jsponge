@@ -1,0 +1,13 @@
+body {
+    font: 12px/1.5 Tahoma, Helvetica, Arial, '宋体', sans-serif;
+}
+/*默认表单样式 td下面带虚线样式*/
+.default_form td {
+    height: 35px;
+    border-bottom: 1px dashed gainsboro;
+    font: 12px/1.5 Tahoma, Helvetica, Arial, '宋体', sans-serif;
+}
+
+.default_form tr {
+    margin-top: 3px;
+}

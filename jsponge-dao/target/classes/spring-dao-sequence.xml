@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <bean id="sequenceDao" class="com.jfbank.fddl.client.sequence.impl.DefaultSequenceDao">
+        <property name="dataSource">
+            <ref bean="dfs_test"/>
+        </property>
+        <property name="retryTimes">
+            <value>3</value>
+        </property>
+        <property name="step">
+            <!--步长-->
+            <value>1000</value>
+        </property>
+        <property name="tableName">
+            <!--存储序列的表,-->
+            <value>sequence</value>
+        </property>
+        <property name="nameColumnName">
+            <value>name</value>
+        </property>
+        <property name="valueColumnName">
+            <value>value</value>
+        </property>
+        <property name="gmtModifiedColumnName">
+            <value>gmt_modified</value>
+        </property>
+    </bean>
+    <!-- 对应一个sequence -->
+    <bean id="orderSequence" class="com.jfbank.fddl.client.sequence.impl.DefaultSequence">
+        <property name="sequenceDao">
+            <ref bean="sequenceDao"/>
+        </property>
+        <!-- 这个sequence的名字，也就是在数据库中的那行数据中name列所对应的值 -->
+        <property name="name">
+            <value>order</value>
+        </property>
+    </bean>
+
+</beans>

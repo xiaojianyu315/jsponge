@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd"
+       default-autowire="byName">
+
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location">
+            <value>classpath:jdbc.properties</value>
+        </property>
+    </bean>
+
+    <bean id="dfs_test" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.test}" />
+        <property name="username" value="${username.test}" />
+        <property name="password" value="${password.test}" />
+
+    </bean>
+
+    <bean id="dfs_test_0" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.test_0}" />
+        <property name="username" value="${username.test_0}" />
+        <property name="password" value="${password.test_0}" />
+
+    </bean>
+
+    <bean id="dfs_test_1" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.test_1}" />
+        <property name="username" value="${username.test_1}" />
+        <property name="password" value="${password.test_1}" />
+
+    </bean>
+
+</beans>
+
