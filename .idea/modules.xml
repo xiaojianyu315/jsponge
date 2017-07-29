@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jsponge.iml" filepath="$PROJECT_DIR$/jsponge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsponge-common/jsponge-common.iml" filepath="$PROJECT_DIR$/jsponge-common/jsponge-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsponge-dao/jsponge-dao.iml" filepath="$PROJECT_DIR$/jsponge-dao/jsponge-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsponge-infra/jsponge-infra.iml" filepath="$PROJECT_DIR$/jsponge-infra/jsponge-infra.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsponge-service/jsponge-service.iml" filepath="$PROJECT_DIR$/jsponge-service/jsponge-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jsponge-web/jsponge-web.iml" filepath="$PROJECT_DIR$/jsponge-web/jsponge-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/japp.iml" filepath="$PROJECT_DIR$/japp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/japp-common/japp-common.iml" filepath="$PROJECT_DIR$/japp-common/japp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/japp-dao/japp-dao.iml" filepath="$PROJECT_DIR$/japp-dao/japp-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/japp-infra/japp-infra.iml" filepath="$PROJECT_DIR$/japp-infra/japp-infra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/japp-service/japp-service.iml" filepath="$PROJECT_DIR$/japp-service/japp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/japp-web/japp-web.iml" filepath="$PROJECT_DIR$/japp-web/japp-web.iml" />
     </modules>
   </component>
 </project>

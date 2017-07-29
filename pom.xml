@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
-    <name>jsponge</name>
+    <name>japp</name>
     <modules>
-        <module>jsponge-web</module>
-        <module>jsponge-dao</module>
-        <module>jsponge-service</module>
-        <module>jsponge-common</module>
-        <module>jsponge-infra</module>
+        <module>japp-web</module>
+        <module>japp-dao</module>
+        <module>japp-service</module>
+        <module>japp-common</module>
+        <module>japp-infra</module>
     </modules>
-    <groupId>org.jsponge</groupId>
-    <artifactId>jsponge</artifactId>
+    <groupId>org.japp</groupId>
+    <artifactId>japp</artifactId>
     <version>1.0</version>
 
     <properties>

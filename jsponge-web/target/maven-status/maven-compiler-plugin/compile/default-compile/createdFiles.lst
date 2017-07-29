@@ -1,5 +1,0 @@
-org/jsponge/web/controller/LoginController.class
-org/jsponge/web/interceptor/ParamPrintInterceptor.class
-org/jsponge/web/component/CustomDateConverter.class
-org/jsponge/web/component/CustomIntegerConverter.class
-org/jsponge/web/controller/IndexController.class

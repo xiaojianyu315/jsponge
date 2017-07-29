@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>japp</artifactId>
+        <groupId>org.japp</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>japp-dao</artifactId>
+    <packaging>jar</packaging>
+
+    <name>japp-dao</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mysql.version>5.1.40</mysql.version>
+        <mybatis.version>3.4.4</mybatis.version>
+        <sharding.jdbc.version>1.4.2</sharding.jdbc.version>
+        <druid.version>1.0.31</druid.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jfaster</groupId>
+            <artifactId>mango</artifactId>
+            <version>1.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.japp</groupId>
+            <artifactId>japp-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jfbank.fddl</groupId>
+            <artifactId>fddl-sequence</artifactId>
+            <version>0.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../japp-web/src/main/webapp/WEB-INF/lib/fddl-sequence-0.2.jar</systemPath>
+        </dependency>
+
+
+    </dependencies>
+</project>
