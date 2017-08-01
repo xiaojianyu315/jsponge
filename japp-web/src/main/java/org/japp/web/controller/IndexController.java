@@ -1,6 +1,7 @@
 package org.japp.web.controller;
 
 
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 

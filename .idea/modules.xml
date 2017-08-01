@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/japp.iml" filepath="$PROJECT_DIR$/japp.iml" />
       <module fileurl="file://$PROJECT_DIR$/japp-common/japp-common.iml" filepath="$PROJECT_DIR$/japp-common/japp-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/japp-dao/japp-dao.iml" filepath="$PROJECT_DIR$/japp-dao/japp-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/japp-generate/japp-generate.iml" filepath="$PROJECT_DIR$/japp-generate/japp-generate.iml" />
       <module fileurl="file://$PROJECT_DIR$/japp-infra/japp-infra.iml" filepath="$PROJECT_DIR$/japp-infra/japp-infra.iml" />
       <module fileurl="file://$PROJECT_DIR$/japp-service/japp-service.iml" filepath="$PROJECT_DIR$/japp-service/japp-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/japp-web/japp-web.iml" filepath="$PROJECT_DIR$/japp-web/japp-web.iml" />

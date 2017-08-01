@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="japp-common" />
         <module name="japp-dao" />
+        <module name="japp-generate" />
         <module name="japp-infra" />
         <module name="japp-service" />
         <module name="japp-web" />
@@ -25,6 +26,7 @@
       <module name="japp" target="1.7" />
       <module name="japp-common" target="1.7" />
       <module name="japp-dao" target="1.7" />
+      <module name="japp-generate" target="1.7" />
       <module name="japp-infra" target="1.7" />
       <module name="japp-service" target="1.7" />
       <module name="japp-web" target="1.6" />
