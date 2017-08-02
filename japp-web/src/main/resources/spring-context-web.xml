@@ -11,7 +11,9 @@
 
     <import resource="classpath:spring-context-service.xml"/>
     <import resource="classpath:spring-web-mvc.xml"/>
-    <context:component-scan base-package="org.japp.web"/>
+    <context:component-scan base-package="org.japp.web">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+    </context:component-scan>
 
     <task:annotation-driven executor="myExecutor"/>
     <task:executor id="myExecutor" pool-size="10" queue-capacity="100"/>
