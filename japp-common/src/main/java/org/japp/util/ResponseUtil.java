@@ -1,6 +1,6 @@
 package org.japp.util;
 
-import com.xiaoleilu.hutool.json.JSONUtil;
+import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,10 +21,13 @@ public class ResponseUtil {
     public static void renderJson(HttpServletResponse response, Object obj) {
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
+        response.setHeader("Pragma", "no-cache");
+        response.setHeader("Cache-Control", "no-cache");
+        response.setDateHeader("Expires", 0L);
         PrintWriter out = null;
         try {
             out = response.getWriter();
-            out.write(String.valueOf(JSONUtil.toJsonStr(obj)));
+            out.write(String.valueOf(JSON.toJSONString(obj)));
         } catch (IOException e) {
             logger.error("error ResponseUtil#renderJson ", e);
         } finally {
@@ -44,6 +47,9 @@ public class ResponseUtil {
     protected void returnText(HttpServletResponse response, String context) {
         response.setContentType("text/html;charset=UTF-8");
         response.setCharacterEncoding("UTF-8");
+        response.setHeader("Pragma", "no-cache");
+        response.setHeader("Cache-Control", "no-cache");
+        response.setDateHeader("Expires", 0L);
         PrintWriter out = null;
         try {
             out = response.getWriter();
