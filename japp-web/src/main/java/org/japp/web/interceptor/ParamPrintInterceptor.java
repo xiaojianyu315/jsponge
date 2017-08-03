@@ -1,6 +1,6 @@
 package org.japp.web.interceptor;
 
-import org.japp.util.WebUtil;
+import org.japp.util.RequestUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -32,8 +32,8 @@ public class ParamPrintInterceptor implements HandlerInterceptor {
 	 */
 	@Override
 	public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
-		Map parameterMap = WebUtil.getParameterMap(httpServletRequest);
-		logger.error("input ==> method = " + httpServletRequest.getRequestURI() + "; params = " + parameterMap);
+		Map parameterMap = RequestUtil.getParameterMap(httpServletRequest);
+		logger.error("input  ==> threadId="+ Thread.currentThread().getId() + ", method = " + httpServletRequest.getRequestURI() + "; params = " + parameterMap);
 		return true;
 	}
 
@@ -48,7 +48,7 @@ public class ParamPrintInterceptor implements HandlerInterceptor {
 	 */
 	@Override
 	public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
-//		System.out.println(modelAndView.toString());
+		logger.error("output ==> threadId="+ Thread.currentThread().getId() +", method = " + httpServletRequest.getRequestURI() );
 	}
 
 	/**

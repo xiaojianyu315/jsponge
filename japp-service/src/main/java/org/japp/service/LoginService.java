@@ -18,22 +18,25 @@ import javax.annotation.Resource;
 public class LoginService {
     @Resource
     private OrderDao orderDao;
+    @Resource
+    private DefaultSequence orderSequence;
 
     private long getId() throws SequenceException {
-        WebApplicationContext wac = ContextLoader.getCurrentWebApplicationContext();
-        DefaultSequence orderSequence = (DefaultSequence) wac.getBean(BeanConstants.bean_order_sequence);
         long l = orderSequence.nextValue();
         return l;
     }
 
     public void inserOrder() {
         try {
-            long id = getId();
-            Order order = new Order();
-            order.setId(id);
-            order.setOrderNo(id+"");
-            orderDao.add(order);
-            System.out.println(id);
+            for(int i=0;i<10000;i++){
+                long id = getId();
+                Order order = new Order();
+                order.setId(id);
+                order.setOrderNo(id+"");
+                orderDao.add(order);
+                System.out.println(id);
+            }
+
         } catch (SequenceException e) {
             e.printStackTrace();
         }

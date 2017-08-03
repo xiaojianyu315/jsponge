@@ -26,7 +26,7 @@ public class LoginController  {
 	@ResponseBody
 	@RequestMapping("/login")
 	public Map login(HttpServletRequest request, HttpServletResponse response) {
-		//loginService.inserOrder();
+//		loginService.inserOrder();
 		Map m = new HashMap();
 		m.put("a",1);
 		return m;

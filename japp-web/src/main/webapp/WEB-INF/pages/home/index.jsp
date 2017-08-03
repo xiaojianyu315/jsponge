@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>基础设施管理平台</title>
+    <title>首页</title>
     <%@ include file="/WEB-INF/pages/common/global.jsp" %>
     <script type="text/javascript">
         function changeCenter(url) {
@@ -23,8 +23,8 @@
         <%--</div>--%>
     </div>
 </div>
-<div data-options="region: 'west', title: '菜单导航栏', iconCls: 'icon-standard-map', split: false,  maxWidth: 300"
-     style="width: 150px; padding: 1px;">
+<div data-options="region: 'west', title: '菜单导航栏', iconCls: 'icon-standard-map', split: false,  maxWidth: 350"
+     style="width: 180px; padding: 0px;">
     <!--<div id="myMenu" class="easyui-accordion" data-options="fit:true,border:false">-->
     <!--<#list permissions as p>-->
     <!--<div title="${p.name}" style="padding: 5px;" data-options="selected:false,border:false,iconCls:'${p.iconCls}'">-->
@@ -37,7 +37,7 @@
     <!--</#list>-->
     <!--<div data-options="selected:true"></div>-->
     <!--</div>-->
-    <a href="javascript:void(0);" onclick="changeCenter('${ctx}/systemManager/list.htm')">服务器管理</a>
+    <%@ include file="/WEB-INF/pages/home/left.jsp" %>
 </div>
 
 </body>

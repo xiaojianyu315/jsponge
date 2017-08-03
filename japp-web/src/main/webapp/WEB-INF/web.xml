@@ -39,7 +39,14 @@
         <!-- 可以在代码里通过RequestContextHolder.getRequestAttributes()).getRequest()获取request对象 -->
         <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
     </listener>
-
+    <servlet>
+        <servlet-name>mango-stat</servlet-name>
+        <servlet-class>org.jfaster.mango.plugin.stats.MangoStatServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mango-stat</servlet-name>
+        <url-pattern>/mango-stat</url-pattern>
+    </servlet-mapping>
     <!-- spring core -->
     <servlet>
         <servlet-name>spring</servlet-name>
