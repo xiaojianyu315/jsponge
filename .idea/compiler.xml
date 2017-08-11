@@ -6,6 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="admin-dao" />
+        <module name="admin-service" />
+        <module name="admin-web" />
+        <module name="easy-web" />
+        <module name="frame-common" />
+        <module name="frame-dao" />
+        <module name="frame-generate" />
+        <module name="frame-infra" />
+        <module name="frame-service" />
+        <module name="frame-web" />
         <module name="japp-common" />
         <module name="japp-dao" />
         <module name="japp-generate" />
@@ -21,15 +31,44 @@
         <module name="jsponge-service" />
         <module name="jsponge-web" />
       </profile>
+      <profile name="Annotation profile for admin-infra" enabled="true">
+        <sourceOutputDir name="../japp-infra/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../japp-infra/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-infra" />
+      </profile>
+      <profile name="Annotation profile for admin-generate" enabled="true">
+        <sourceOutputDir name="../japp-generate/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../japp-generate/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-generate" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
+      <module name="admin-common" target="1.7" />
+      <module name="admin-dao" target="1.7" />
+      <module name="admin-generate" target="1.7" />
+      <module name="admin-infra" target="1.7" />
+      <module name="admin-service" target="1.7" />
+      <module name="admin-web" target="1.6" />
+      <module name="easy-admin" target="1.7" />
+      <module name="easy-frame" target="1.7" />
+      <module name="easy-web" target="1.6" />
+      <module name="frame-common" target="1.7" />
+      <module name="frame-dao" target="1.7" />
+      <module name="frame-generate" target="1.7" />
+      <module name="frame-infra" target="1.7" />
+      <module name="frame-service" target="1.7" />
+      <module name="frame-web" target="1.6" />
+      <module name="j-cms" target="1.7" />
       <module name="japp" target="1.7" />
-      <module name="japp-common" target="1.7" />
+      <module name="japp-common" target="1.5" />
       <module name="japp-dao" target="1.7" />
       <module name="japp-generate" target="1.7" />
       <module name="japp-infra" target="1.7" />
       <module name="japp-service" target="1.7" />
       <module name="japp-web" target="1.6" />
+      <module name="open-admin" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

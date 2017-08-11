@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copydir dest="/Users/xiaojianyu/IdeaProjects/easy-frame/frame-web/target/classes/" forceoverwrite="true" src="/Users/xiaojianyu/IdeaProjects/easy-frame/frame-web/src/main/config/dev/"></copydir>
+</target>
+</project>

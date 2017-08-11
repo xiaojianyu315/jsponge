@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
-    <name>japp</name>
+    <name>easy-frame</name>
     <modules>
-        <module>japp-web</module>
-        <module>japp-dao</module>
-        <module>japp-service</module>
-        <module>japp-common</module>
-        <module>japp-infra</module>
-        <module>japp-generate</module>
+        <module>frame-web</module>
+        <module>frame-dao</module>
+        <module>frame-service</module>
+        <module>frame-common</module>
+        <module>frame-infra</module>
+        <module>frame-generate</module>
     </modules>
-    <groupId>org.japp</groupId>
-    <artifactId>japp</artifactId>
+    <groupId>org.easy</groupId>
+    <artifactId>easyframe</artifactId>
     <version>1.0</version>
 
     <properties>

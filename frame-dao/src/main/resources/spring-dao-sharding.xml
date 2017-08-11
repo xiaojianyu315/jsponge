@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+    <!-- 配置数据源工厂 -->
+    <!--<bean id="dsf_single" class="org.jfaster.mango.datasource.SimpleDataSourceFactory">-->
+        <!--<property name="name" value="dsf_single"></property>-->
+        <!--<property name="dataSource">-->
+            <!--<ref bean="dfs_test"/>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+
+    <!--&lt;!&ndash; 配置数据源工厂 &ndash;&gt;-->
+    <!--<bean id="dsf_0" class="org.jfaster.mango.datasource.SimpleDataSourceFactory">-->
+        <!--<property name="name" value="dsf_0"></property>-->
+        <!--<property name="dataSource">-->
+            <!--<ref bean="dfs_test_0"/>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!--<bean id="dsf_1" class="org.jfaster.mango.datasource.SimpleDataSourceFactory">-->
+        <!--<property name="name" value="dsf_1"></property>-->
+        <!--<property name="dataSource">-->
+            <!--<ref bean="dfs_test_1"/>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!-- 配置mango对象 -->
+    <!--<bean id="mango" class="org.jfaster.mango.operator.Mango" factory-method="newInstance">-->
+        <!--<property name="dataSourceFactories">-->
+            <!--<list>-->
+                <!--<ref bean="dsf_single"></ref>-->
+                <!--&lt;!&ndash;<ref bean="dsf_0"></ref>&ndash;&gt;-->
+                <!--&lt;!&ndash;<ref bean="dsf_1"></ref>&ndash;&gt;-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash; 配置扫描使用@DB注解修饰的DAO类 &ndash;&gt;-->
+    <!--<bean class="org.jfaster.mango.plugin.spring.MangoDaoScanner">-->
+        <!--<property name="packages">-->
+            <!--<list>-->
+                <!--&lt;!&ndash; 扫描包名 &ndash;&gt;-->
+                <!--<value>org.easyadminadmin.dao</value>-->
+
+                <!--&lt;!&ndash; <value>其他需要扫描的包</value> &ndash;&gt;-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+</beans>
