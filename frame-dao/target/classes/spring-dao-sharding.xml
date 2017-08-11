@@ -1,57 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:rdb="http://www.dangdang.com/schema/ddframe/rdb"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-                        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+                        http://www.dangdang.com/schema/ddframe/rdb
+                        http://www.dangdang.com/schema/ddframe/rdb/rdb.xsd">
 
+    <rdb:strategy id="tableShardingStrategy" sharding-columns="user_id" algorithm-class="org.easyadmin.dao.strategy.MemberIdTableShardingAlgorithm"/>
 
+    <rdb:data-source id="shardingDataSource">
+        <rdb:sharding-rule data-sources="ds_test" default-data-source="ds_test">
+            <rdb:table-rules>
+                <rdb:table-rule logic-table="member_index" actual-tables="member_index_tbl_${[0,1,2,3,4,5,6,7,8,9]}${0..9}"  table-strategy="tableShardingStrategy" />
+                <rdb:table-rule logic-table="member_details" actual-tables="member_details_tbl_${[0,1,2,3,4,5,6,7,8,9]}${0..9}"  table-strategy="tableShardingStrategy"/>
+            </rdb:table-rules>
+        </rdb:sharding-rule>
+    </rdb:data-source>
 
-
-    <!-- 配置数据源工厂 -->
-    <!--<bean id="dsf_single" class="org.jfaster.mango.datasource.SimpleDataSourceFactory">-->
-        <!--<property name="name" value="dsf_single"></property>-->
-        <!--<property name="dataSource">-->
-            <!--<ref bean="dfs_test"/>-->
-        <!--</property>-->
-    <!--</bean>-->
-
-
-    <!--&lt;!&ndash; 配置数据源工厂 &ndash;&gt;-->
-    <!--<bean id="dsf_0" class="org.jfaster.mango.datasource.SimpleDataSourceFactory">-->
-        <!--<property name="name" value="dsf_0"></property>-->
-        <!--<property name="dataSource">-->
-            <!--<ref bean="dfs_test_0"/>-->
-        <!--</property>-->
-    <!--</bean>-->
-
-    <!--<bean id="dsf_1" class="org.jfaster.mango.datasource.SimpleDataSourceFactory">-->
-        <!--<property name="name" value="dsf_1"></property>-->
-        <!--<property name="dataSource">-->
-            <!--<ref bean="dfs_test_1"/>-->
-        <!--</property>-->
-    <!--</bean>-->
-
-    <!-- 配置mango对象 -->
-    <!--<bean id="mango" class="org.jfaster.mango.operator.Mango" factory-method="newInstance">-->
-        <!--<property name="dataSourceFactories">-->
-            <!--<list>-->
-                <!--<ref bean="dsf_single"></ref>-->
-                <!--&lt;!&ndash;<ref bean="dsf_0"></ref>&ndash;&gt;-->
-                <!--&lt;!&ndash;<ref bean="dsf_1"></ref>&ndash;&gt;-->
-            <!--</list>-->
-        <!--</property>-->
-    <!--</bean>-->
-
-    <!--&lt;!&ndash; 配置扫描使用@DB注解修饰的DAO类 &ndash;&gt;-->
-    <!--<bean class="org.jfaster.mango.plugin.spring.MangoDaoScanner">-->
-        <!--<property name="packages">-->
-            <!--<list>-->
-                <!--&lt;!&ndash; 扫描包名 &ndash;&gt;-->
-                <!--<value>org.easyadminadmin.dao</value>-->
-
-                <!--&lt;!&ndash; <value>其他需要扫描的包</value> &ndash;&gt;-->
-            <!--</list>-->
-        <!--</property>-->
-    <!--</bean>-->
-
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="shardingDataSource" />
+    </bean>
 </beans>

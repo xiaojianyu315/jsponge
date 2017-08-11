@@ -11,7 +11,7 @@
         </property>
     </bean>
 
-    <bean id="dfs_test" class="com.alibaba.druid.pool.DruidDataSource"
+    <bean id="ds_test" class="com.alibaba.druid.pool.DruidDataSource"
           destroy-method="close" depends-on="propertyConfigurer">
         <property name="driverClassName" value="${driver}" />
         <property name="url" value="${url.test}" />
@@ -20,7 +20,7 @@
 
     </bean>
 
-    <bean id="dfs_test_0" class="com.alibaba.druid.pool.DruidDataSource"
+    <bean id="ds_test_0" class="com.alibaba.druid.pool.DruidDataSource"
           destroy-method="close" depends-on="propertyConfigurer">
         <property name="driverClassName" value="${driver}" />
         <property name="url" value="${url.test_0}" />
@@ -29,7 +29,7 @@
 
     </bean>
 
-    <bean id="dfs_test_1" class="com.alibaba.druid.pool.DruidDataSource"
+    <bean id="ds_test_1" class="com.alibaba.druid.pool.DruidDataSource"
           destroy-method="close" depends-on="propertyConfigurer">
         <property name="driverClassName" value="${driver}" />
         <property name="url" value="${url.test_1}" />

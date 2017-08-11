@@ -53,6 +53,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:indy:2.4.5" level="project" />
     <orderEntry type="library" name="Maven: com.dangdang:sharding-jdbc-transaction-storage:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.dangdang:sharding-jdbc-config-spring:1.5.0" level="project" />
     <orderEntry type="module" module-name="frame-common" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.3.3" level="project" />
