@@ -15,15 +15,15 @@ public class GenShardTableSqlUtil {
     /**
      * 逻辑表路径
      */
-    private static final String logic_table_input_file = "/Users/xiaojianyu/IdeaProjects/easyadmin/db/schema/table_logic.sql";
+    private static final String logic_table_input_file = "/Users/xiaojianyu/IdeaProjects/easy-frame/db/schema/table_logic.sql";
     /**
      * 分库分表全部总表的输出路径
      */
-    private static final String all_sql_output_file = "/Users/xiaojianyu/IdeaProjects/easyadmin/db/schema/table_logic_all.sql";
+    private static final String all_sql_output_file = "/Users/xiaojianyu/IdeaProjects/easy-frame/db/schema/table_logic_all.sql";
     /**
      * 分库分表独立表的输出路径
      */
-    private static final String shard_sql_output_path = "/Users/xiaojianyu/IdeaProjects/easyadmin/db/schema/logic_tables/";
+    private static final String shard_sql_output_path = "/Users/xiaojianyu/IdeaProjects/easy-frame/db/schema/logic_tables/";
     /**
      * 库前缀，用于生成USE，切换库命令
      */
@@ -31,7 +31,7 @@ public class GenShardTableSqlUtil {
     /**
      * 库的数量
      */
-    private static final int db_count = 1;
+    private static final int db_count = 10;
     /**
      * 每个库表的数量
      */

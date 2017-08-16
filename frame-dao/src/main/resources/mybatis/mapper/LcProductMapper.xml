@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.easy.dao.mapper.LcProductMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="org.easy.dao.entity.LcProduct">
+		<id column="id" property="id" />
+		<result column="product_code" property="productCode" />
+		<result column="product_name" property="productName" />
+		<result column="product_type" property="productType" />
+		<result column="period" property="period" />
+		<result column="profit" property="profit" />
+		<result column="ext_profit" property="extProfit" />
+		<result column="min_invest" property="minInvest" />
+		<result column="max_invest" property="maxInvest" />
+		<result column="single_max_invest" property="singleMaxInvest" />
+		<result column="invest_mode" property="investMode" />
+		<result column="sell_status" property="sellStatus" />
+		<result column="online_status" property="onlineStatus" />
+		<result column="start_time" property="startTime" />
+		<result column="end_time" property="endTime" />
+		<result column="amount" property="amount" />
+		<result column="withhold_amount" property="withholdAmount" />
+		<result column="sold" property="sold" />
+		<result column="attr" property="attr" />
+		<result column="product_desc" property="productDesc" />
+		<result column="create_time" property="createTime" />
+		<result column="update_time" property="updateTime" />
+	</resultMap>
+
+</mapper>

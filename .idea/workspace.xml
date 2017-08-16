@@ -2,99 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdaf90a5-d059-426b-a6d6-9543682e04eb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-infra/src/main/java/org/easyadmin/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/controller/admin/CmsAboutController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/controller/admin/CmsArticleController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/controller/admin/CmsDictController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/controller/admin/CmsHonorController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/controller/admin/CmsProductController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/controller/admin/CmsProductImgController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/controller/admin/CmsProductMenuController.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/constant/CacheConstants.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/constant/CacheConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/constant/ErrorConstants.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/constant/ErrorConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/exception/AbstractException.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/exception/AbstractException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/exception/BusinessException.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/exception/BusinessException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/exception/DAOException.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/exception/DAOException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/util/BeanExtUtils.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/BeanExtUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/util/DateConvert.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/DateConvert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/util/HttpClientUtil.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/HttpClientUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/util/PageUtil.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/PageUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/util/PropUtil.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/PropUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/util/RequestUtil.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/RequestUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-common/src/main/java/org/easyadmin/util/ResponseUtil.java" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/ResponseUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/constant/DbConstants.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/constant/DbConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/entity/CmsAbout.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsAbout.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/entity/CmsArticle.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsArticle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/entity/CmsDict.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsDict.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/entity/CmsHonor.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsHonor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/entity/CmsProduct.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/entity/CmsProductImg.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsProductImg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/entity/CmsProductMenu.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsProductMenu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/mapper/CmsAboutMapper.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsAboutMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/mapper/CmsArticleMapper.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsArticleMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/mapper/CmsDictMapper.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsDictMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/mapper/CmsHonorMapper.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsHonorMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/mapper/CmsProductImgMapper.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsProductImgMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/mapper/CmsProductMapper.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsProductMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/mapper/CmsProductMenuMapper.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsProductMenuMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/strategy/MemberIdTableShardingAlgorithm.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/strategy/MemberIdTableShardingAlgorithm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-generate/src/main/java/org/easyadmin/generate/GenShardAlterSqlUtil.java" afterPath="$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/GenShardAlterSqlUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-generate/src/main/java/org/easyadmin/generate/GenShardTableSqlUtil.java" afterPath="$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/GenShardTableSqlUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-generate/src/main/java/org/easyadmin/generate/MpGenerator.java" afterPath="$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/MpGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/ICmsAboutService.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsAboutService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/ICmsArticleService.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsArticleService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/ICmsDictService.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsDictService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/ICmsHonorService.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsHonorService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/ICmsProductImgService.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsProductImgService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/ICmsProductMenuService.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsProductMenuService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/ICmsProductService.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsProductService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/LoginService.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/LoginService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/impl/CmsAboutServiceImpl.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsAboutServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/impl/CmsArticleServiceImpl.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsArticleServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/impl/CmsDictServiceImpl.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsDictServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/impl/CmsHonorServiceImpl.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsHonorServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/impl/CmsProductImgServiceImpl.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsProductImgServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/impl/CmsProductMenuServiceImpl.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsProductMenuServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easyadmin/service/impl/CmsProductServiceImpl.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsProductServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/component/CustomDateConverter.java" afterPath="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/component/CustomDateConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/component/CustomIntegerConverter.java" afterPath="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/component/CustomIntegerConverter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/controller/admin/IndexController.java" afterPath="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/IndexController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/controller/admin/LoginController.java" afterPath="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LoginController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/dtos/response/EasyUIPageResult.java" afterPath="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/dtos/response/EasyUIPageResult.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/java/org/easyadmin/web/interceptor/ParamPrintInterceptor.java" afterPath="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/interceptor/ParamPrintInterceptor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/admin/common/footer.jsp" afterPath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/common/footer.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/admin/common/global.jsp" afterPath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/common/global.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/admin/common/header.jsp" afterPath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/common/header.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/admin/common/page.jsp" afterPath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/common/page.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/admin/common/taglibs.jsp" afterPath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/common/taglibs.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/admin/home/index.jsp" afterPath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/home/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/admin/home/left.jsp" afterPath="$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/home/left.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/JsonUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/TestUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/LcLogin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/LcMember.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/LcOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/LcProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/LcToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/LcLoginMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/LcMemberMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/LcOrderMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/LcTokenMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/mapper/LcMemberMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/mapper/LcOrderMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/mapper/LcProductMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/mapper/LcTokenMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ILcLoginService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ILcMemberService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ILcOrderService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ILcTokenService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/LcLoginServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/LcMemberServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/LcOrderServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/LcProductServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/LcTokenServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/entity/CmsAbout.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/entity/CmsArticle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/entity/CmsDict.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/entity/CmsHonor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/entity/CmsProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/entity/CmsProductImg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/entity/CmsProductMenu.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/mapper/CmsAboutMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/mapper/CmsArticleMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/mapper/CmsDictMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/mapper/CmsHonorMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/mapper/CmsProductImgMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/mapper/CmsProductMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/dao/mapper/CmsProductMenuMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/ICmsAboutService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/ICmsArticleService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/ICmsDictService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/ICmsHonorService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/ICmsProductImgService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/ICmsProductMenuService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/ICmsProductService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/impl/CmsAboutServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/impl/CmsArticleServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/impl/CmsDictServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/impl/CmsHonorServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/impl/CmsProductImgServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/impl/CmsProductMenuServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/service/impl/CmsProductServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/web/controller/CmsArticleController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/web/controller/CmsHonorController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/web/controller/CmsProductController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/web/controller/CmsProductImgController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/web/controller/CmsProductMenuController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsAboutMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsArticleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsDictMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsHonorMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsProductImgMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsProductMenuMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db/schema/logic_tables/lc_www.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsAbout.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsArticle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsDict.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsHonor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsProduct.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsProductImg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/CmsProductMenu.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsAboutMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsArticleMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsDictMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsHonorMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsProductImgMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsProductMenuMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsAboutMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsArticleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsDictMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsHonorMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsProductImgMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsProductMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsProductMenuMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsAboutService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsArticleService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsDictService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsHonorService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsProductImgService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsProductMenuService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsAboutServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsArticleServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsDictServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsHonorServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsProductImgServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsProductMenuServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/CmsProductServiceImpl.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/web/controller/CmsAboutController.java" afterPath="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/OrderController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/web/controller/CmsDictController.java" afterPath="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/MemberController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/web/controller/CmsProductController.java" afterPath="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/ProductController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsProductMapper.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/mapper/LcLoginMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/CmsProductMapper.java" afterPath="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/LcProductMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsProductService.java" afterPath="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ILcProductService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsAboutMapper.xml" afterPath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsAboutMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsArticleMapper.xml" afterPath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsArticleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsDictMapper.xml" afterPath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsDictMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsHonorMapper.xml" afterPath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsHonorMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsProductImgMapper.xml" afterPath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsProductImgMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsProductMapper.xml" afterPath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsProductMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsProductMenuMapper.xml" afterPath="$PROJECT_DIR$/db/mp-generator-output/org/japp/xml/CmsProductMenuMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-common/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/frame-common/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsAboutMapper.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsAboutMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsArticleMapper.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsArticleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsDictMapper.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsDictMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsHonorMapper.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsHonorMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsProductImgMapper.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsProductImgMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsProductMapper.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsProductMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsProductMenuMapper.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/japp/CmsProductMenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema/db.sql" afterPath="$PROJECT_DIR$/db/schema/db.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema/logic_tables/lc_login.sql" afterPath="$PROJECT_DIR$/db/schema/logic_tables/lc_login.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema/logic_tables/lc_member.sql" afterPath="$PROJECT_DIR$/db/schema/logic_tables/lc_member.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema/logic_tables/lc_order.sql" afterPath="$PROJECT_DIR$/db/schema/logic_tables/lc_order.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema/logic_tables/lc_token.sql" afterPath="$PROJECT_DIR$/db/schema/logic_tables/lc_token.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema/table_logic_all.sql" afterPath="$PROJECT_DIR$/db/schema/table_logic_all.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema/table_single.sql" afterPath="$PROJECT_DIR$/db/schema/table_single.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/spring-context-dao.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/spring-context-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-datasource.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-datasource.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sharding.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sharding.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/target/classes/spring-dao-sharding.xml" afterPath="$PROJECT_DIR$/frame-dao/target/classes/spring-dao-sharding.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/frame-dao/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-infra/frame-infra.iml" afterPath="$PROJECT_DIR$/frame-infra/frame-infra.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-infra/pom.xml" afterPath="$PROJECT_DIR$/frame-infra/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/frame-service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-web/src/main/resources/spring-web-mvc.xml" afterPath="$PROJECT_DIR$/frame-web/src/main/resources/spring-web-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-web/target/classes/spring-web-mvc.xml" afterPath="$PROJECT_DIR$/frame-web/target/classes/spring-web-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/frame-web/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-dao/src/main/resources/spring-mybatis.xml" afterPath="$PROJECT_DIR$/frame-dao/src/main/resources/spring-mybatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/GenShardTableSqlUtil.java" afterPath="$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/GenShardTableSqlUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/MpGenerator.java" afterPath="$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/MpGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/velocity.log" afterPath="$PROJECT_DIR$/velocity.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/velocity.log.1" afterPath="$PROJECT_DIR$/velocity.log.1" />
     </list>
     <list id="53043f38-0fbd-4414-bad8-b474ba333edf" name="New changelist" comment="New changelist" />
     <list id="42438fa8-a32e-4a5d-80f9-bbab41744765" name="Failed commit: Default" comment="加入分库分表id生成器" />
@@ -166,19 +192,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frame-infra/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -189,71 +202,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-web-mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frame-web/src/main/resources/spring-web-mvc.xml">
+      <file leaf-file-name="spring-dao-datasource.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-datasource.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+            <state relative-caret-position="1649">
+              <caret line="98" column="51" lean-forward="true" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
+              <folding>
+                <element signature="e#1137#1148#0" expanded="true" />
+                <element signature="e#1525#1536#0" expanded="true" />
+                <element signature="e#1912#1923#0" expanded="true" />
+                <element signature="e#2299#2310#0" expanded="true" />
+                <element signature="e#2686#2697#0" expanded="true" />
+                <element signature="e#3073#3084#0" expanded="true" />
+                <element signature="e#3460#3471#0" expanded="true" />
+                <element signature="e#3847#3858#0" expanded="true" />
+                <element signature="e#4234#4245#0" expanded="true" />
+                <element signature="e#4621#4632#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-dao-sharding.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sharding.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomSequence.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/lib/fddl-sequence-0.2.jar!/com/jfbank/fddl/client/sequence/util/RandomSequence.class">
+      <file leaf-file-name="ILcProductService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ILcProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultSequenceDao.class" pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/lib/fddl-sequence-0.2.jar!/com/jfbank/fddl/client/sequence/impl/DefaultSequenceDao.class">
+      <file leaf-file-name="LcProductServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/LcProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultSequence.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/lib/fddl-sequence-0.2.jar!/com/jfbank/fddl/client/sequence/impl/DefaultSequence.class">
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParamPrintInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/interceptor/ParamPrintInterceptor.java">
+      <file leaf-file-name="table_logic.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema/table_logic.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-203">
-              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomDateConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/component/CustomDateConverter.java">
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomIntegerConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/component/CustomIntegerConverter.java">
+      <file leaf-file-name="MemberController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/MemberController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -264,10 +298,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -349,16 +380,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/japp-generate/pom.xml" />
-        <option value="$PROJECT_DIR$/japp-dao/src/main/resources/spring-dao-sharding.xml" />
-        <option value="$PROJECT_DIR$/japp-dao/src/main/java/org/japp/dao/entity/LcProduct.java" />
-        <option value="$PROJECT_DIR$/japp-dao/src/main/java/org/japp/dao/mapper/LcProductMapper.java" />
-        <option value="$PROJECT_DIR$/japp-dao/src/test/java/org/japp/OrderDaoTest.java" />
-        <option value="$PROJECT_DIR$/japp-service/src/main/java/org/japp/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/japp-dao/src/main/resources/spring-context-dao.xml" />
-        <option value="$PROJECT_DIR$/japp-dao/target/classes/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/japp-dao/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/japp-generate/src/main/java/org/japp/generate/MpGenerator.java" />
         <option value="$PROJECT_DIR$/japp-web/src/main/java/org/japp/web/dtos/EasyUIPageResult.java" />
         <option value="$PROJECT_DIR$/japp-web/src/main/java/org/japp/web/dtos/response/EasyUIPageResult.java" />
         <option value="$PROJECT_DIR$/japp-common/src/main/java/org/japp/util/PageUtil.java" />
@@ -389,17 +410,27 @@
         <option value="$PROJECT_DIR$/frame-web/src/main/resources/spring-context-web.xml" />
         <option value="$PROJECT_DIR$/frame-web/src/main/resources/spring-web-mvc.xml" />
         <option value="$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sequence.xml" />
-        <option value="$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-datasource.xml" />
         <option value="$PROJECT_DIR$/frame-dao/pom.xml" />
         <option value="$PROJECT_DIR$/frame-dao/src/main/java/org/easyadmin/dao/strategy/MemberIdTableShardingAlgorithm.java" />
-        <option value="$PROJECT_DIR$/frame-dao/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/db/schema/table_single.sql" />
-        <option value="$PROJECT_DIR$/db/schema/db.sql" />
-        <option value="$PROJECT_DIR$/db/schema/table_logic_all.sql" />
-        <option value="$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sharding.xml" />
         <option value="$PROJECT_DIR$/frame-infra/pom.xml" />
         <option value="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/TestUtil.java" />
+        <option value="$PROJECT_DIR$/frame-dao/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/frame-dao/src/main/resources/spring-context-dao.xml" />
+        <option value="$PROJECT_DIR$/db/schema/table_single.sql" />
+        <option value="$PROJECT_DIR$/db/schema/db.sql" />
+        <option value="$PROJECT_DIR$/db/schema/table_logic.sql" />
+        <option value="$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/GenShardTableSqlUtil.java" />
+        <option value="$PROJECT_DIR$/db/schema/table_logic_all.sql" />
+        <option value="$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/MpGenerator.java" />
+        <option value="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LcProductController.java" />
+        <option value="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LcOrderController.java" />
+        <option value="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LcMemberController.java" />
+        <option value="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LcLoginController.java" />
+        <option value="$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-datasource.xml" />
+        <option value="$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sharding.xml" />
       </list>
     </option>
   </component>
@@ -429,88 +460,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="frame-web" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="frame-web" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="org.easy:frame-service:1.0" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="frame-web" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="easy-frame" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="easy-frame" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Run Configurations" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RunConfigurationsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="easy-frame" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -591,6 +541,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -930,6 +881,44 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easy-frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easy-frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1046,6 +1035,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1098,6 +1091,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easy-frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easy-frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easy-frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easy-frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1137,7 +1198,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frame-common" />
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schema" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1151,11 +1216,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frame-common" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="schema" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logic_tables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1169,25 +1238,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frame-common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1224,18 +1280,18 @@
       <recent name="org.jsponge" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.easy.common.util" />
       <recent name="org.japp.web.dtos" />
       <recent name="org.japp.dao.strategy" />
       <recent name="org.japp.web.controller" />
       <recent name="org.japp.constant" />
-      <recent name="org.jsponge.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/japp-service/src/main/java/org/japp/service" />
-      <recent name="$PROJECT_DIR$/japp-dao/src/main/java/org/japp/dao" />
-      <recent name="$PROJECT_DIR$/japp-web/src/main/java/org/japp/web/controller" />
-      <recent name="$PROJECT_DIR$/japp-dao/src/main/resources/mybatis/japp" />
-      <recent name="$PROJECT_DIR$/japp-dao/src/main/java/org/japp/dao/entity" />
+      <recent name="$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller" />
+      <recent name="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl" />
+      <recent name="$PROJECT_DIR$/frame-service/src/main/java/org/easy/service" />
+      <recent name="$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/mapper" />
+      <recent name="$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1250,47 +1306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
-    <configuration default="false" name="GenShardTableSqlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.easyadmin.generate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.easyadmin.generate.GenShardTableSqlUtil" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="japp-generate" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="GenEntityDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.easyadmin.generate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.japp.generate.GenEntityDao" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="japp-generate" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MpGenerator (1)">
     <configuration default="false" name="MpGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1309,32 +1325,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="japp-generate" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="null.testUserInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.easyadmin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.japp" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="testUserInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="OrderDaoTest.testUserInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -1361,6 +1351,66 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.easy.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.easy.common.util.TestUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="frame-common" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GenShardTableSqlUtil (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.easy.generate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.easy.generate.GenShardTableSqlUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="frame-generate" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MpGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.easy.generate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.easy.generate.MpGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="frame-generate" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -2118,19 +2168,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.dev" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GenShardTableSqlUtil" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GenEntityDao" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MpGenerator" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.null.testUserInsert" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.OrderDaoTest.testUserInsert" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MpGenerator" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OrderDaoTest.testUserInsert" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestUtil" />
+      <item index="5" class="java.lang.String" itemvalue="Application.GenShardTableSqlUtil (1)" />
+      <item index="6" class="java.lang.String" itemvalue="Application.MpGenerator (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MpGenerator" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OrderDaoTest.testUserInsert" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.null.testUserInsert" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GenShardTableSqlUtil" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GenEntityDao" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MpGenerator (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GenShardTableSqlUtil (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestUtil" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MpGenerator" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OrderDaoTest.testUserInsert" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2338,7 +2388,9 @@
       <workItem from="1502415146548" duration="1045000" />
       <workItem from="1502427330170" duration="311000" />
       <workItem from="1502427667972" duration="6754000" />
-      <workItem from="1502861887865" duration="1222000" />
+      <workItem from="1502861887865" duration="1241000" />
+      <workItem from="1502863461880" duration="593000" />
+      <workItem from="1502870847460" duration="4152000" />
     </task>
     <task id="LOCAL-00001" summary="1111">
       <created>1464777744255</created>
@@ -2599,7 +2651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502437285908</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="完善分库分表">
+      <created>1502863128348</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1502863128348</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2635,7 +2694,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="593824000" />
+    <option name="totallyTimeSpent" value="598588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2666,6 +2725,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2879147" sideWeight="0.6198083" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27251184" sideWeight="0.4978701" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.4978701" order="10" side_tool="false" content_ui="tabs" />
@@ -2674,9 +2734,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819906" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26658767" sideWeight="0.47390842" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23748669" sideWeight="0.49333334" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24227902" sideWeight="0.49333334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2625133" sideWeight="0.50666666" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27962086" sideWeight="0.4968051" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2685,12 +2744,12 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30511183" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27251184" sideWeight="0.4978701" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="0" y="23" width="1920" height="958" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27962086" sideWeight="0.4968051" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2738,352 +2797,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/dtos/response/EasyUIPageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/japp-dao/src/test/java/org/japp/OrderDaoTest.java" />
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/CmsDictController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/common/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/common/global.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/home/left.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/pages/home/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/CmsHonorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/CmsArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/CmsAboutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/BeanExtUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/PageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ICmsAboutService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/frame-web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-service/frame-service.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-generate/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-service/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/resources/spring-context-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-service/src/main/resources/spring-context-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.9.RELEASE/spring-tx-4.2.9.RELEASE.jar!/org/springframework/transaction/config/spring-tx-4.2.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.9.RELEASE/spring-beans-4.2.9.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.2.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sequence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-dao/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-context-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema/table_single.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema/table_logic_all.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/strategy/MemberIdTableShardingAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema/table_logic.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sharding.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-infra/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/CmsProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/CmsProductImgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/CmsProductMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/interceptor/ParamPrintInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -3091,7 +2808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3099,15 +2815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3115,13 +2822,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frame-web/src/main/resources/spring-web-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
+        <state relative-caret-position="1190">
           <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
           <folding />
         </state>
@@ -3147,6 +2853,367 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.0.9/hutool-all-3.0.9.jar!/com/xiaoleilu/hutool/date/DateUnit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.0.9/hutool-all-3.0.9.jar!/com/xiaoleilu/hutool/date/DateUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5083">
+          <caret line="445" column="20" lean-forward="false" selection-start-line="445" selection-start-column="20" selection-end-line="445" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/xiaoleilu/hutool-all/3.0.9/hutool-all-3.0.9.jar!/com/xiaoleilu/hutool/json/JSONUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2950">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#565#566#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#715#731#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-common/src/main/java/org/easy/common/util/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sequence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/mapper/CmsProductMenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-context-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="67" lean-forward="false" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/GenShardTableSqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema/table_logic_all.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="8315" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8380" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/dao/entity/LcLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/dao/entity/LcMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-835">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/dao/entity/LcOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/dao/entity/LcToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/dao/mapper/LcLoginMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/service/ILcLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/xml/LcLoginMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/xml/LcMemberMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/xml/LcOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/mp-generator-output/org/easy/xml/LcTokenMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/LcLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/mapper/LcLoginMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ILcLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/LcLoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LcTokenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema/table_single.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-generate/src/main/java/org/easy/generate/MpGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/entity/LcProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/mybatis/mapper/LcProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/java/org/easy/dao/mapper/LcProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/ILcProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-service/src/main/java/org/easy/service/impl/LcProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LcLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-web/src/main/java/org/easy/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="98" column="51" lean-forward="true" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
+          <folding>
+            <element signature="e#1137#1148#0" expanded="true" />
+            <element signature="e#1525#1536#0" expanded="true" />
+            <element signature="e#1912#1923#0" expanded="true" />
+            <element signature="e#2299#2310#0" expanded="true" />
+            <element signature="e#2686#2697#0" expanded="true" />
+            <element signature="e#3073#3084#0" expanded="true" />
+            <element signature="e#3460#3471#0" expanded="true" />
+            <element signature="e#3847#3858#0" expanded="true" />
+            <element signature="e#4234#4245#0" expanded="true" />
+            <element signature="e#4621#4632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema/table_logic.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frame-dao/src/main/resources/spring-dao-sharding.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>

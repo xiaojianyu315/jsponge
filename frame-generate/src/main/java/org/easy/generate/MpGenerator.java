@@ -24,7 +24,7 @@ public class MpGenerator {
 
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
-        gc.setOutputDir("/Users/xiaojianyu/IdeaProjects/j-cms/db/mp-generator-output");
+        gc.setOutputDir("/Users/xiaojianyu/IdeaProjects/easy-frame/db/mp-generator-output");
         gc.setFileOverride(true);
         gc.setActiveRecord(true);
         gc.setEnableCache(false);// XML 二级缓存
@@ -55,7 +55,7 @@ public class MpGenerator {
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("root");
-        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/j_cms?characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/lc_gen_test?characterEncoding=utf8");
         mpg.setDataSource(dsc);
 
         // 策略配置
@@ -87,7 +87,7 @@ public class MpGenerator {
 
         // 包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent("org.easyadmin");
+        pc.setParent("org.easy");
         pc.setEntity("dao.entity");
         pc.setMapper("dao.mapper");
         pc.setService("service");

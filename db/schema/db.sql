@@ -1,4 +1,7 @@
+-- 用于生成逻辑表的库，开发阶段使用
+CREATE DATABASE IF NOT EXISTS lc_gen_test DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 
+-- 单库
 CREATE DATABASE IF NOT EXISTS lc DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 
 -- 10 库 0--9

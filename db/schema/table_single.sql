@@ -1,5 +1,4 @@
 
-CREATE DATABASE IF NOT EXISTS lc DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 
 DROP TABLE IF EXISTS lc_product;
 CREATE TABLE lc_product (

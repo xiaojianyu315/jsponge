@@ -11,32 +11,96 @@
         </property>
     </bean>
 
-    <bean id="ds_test" class="com.alibaba.druid.pool.DruidDataSource"
+    <bean id="ds_lc" class="com.alibaba.druid.pool.DruidDataSource"
           destroy-method="close" depends-on="propertyConfigurer">
         <property name="driverClassName" value="${driver}" />
-        <property name="url" value="${url.test}" />
-        <property name="username" value="${username.test}" />
-        <property name="password" value="${password.test}" />
+        <property name="url" value="${url.lc}" />
+        <property name="username" value="${username.lc}" />
+        <property name="password" value="${password.lc}" />
 
     </bean>
 
-    <bean id="ds_test_0" class="com.alibaba.druid.pool.DruidDataSource"
+    <bean id="ds_lc_0" class="com.alibaba.druid.pool.DruidDataSource"
           destroy-method="close" depends-on="propertyConfigurer">
         <property name="driverClassName" value="${driver}" />
-        <property name="url" value="${url.test_0}" />
-        <property name="username" value="${username.test_0}" />
-        <property name="password" value="${password.test_0}" />
-
+        <property name="url" value="${url.lc_0}" />
+        <property name="username" value="${username.lc_0}" />
+        <property name="password" value="${password.lc_0}" />
     </bean>
 
-    <bean id="ds_test_1" class="com.alibaba.druid.pool.DruidDataSource"
+
+    <bean id="ds_lc_1" class="com.alibaba.druid.pool.DruidDataSource"
           destroy-method="close" depends-on="propertyConfigurer">
         <property name="driverClassName" value="${driver}" />
-        <property name="url" value="${url.test_1}" />
-        <property name="username" value="${username.test_1}" />
-        <property name="password" value="${password.test_1}" />
-
+        <property name="url" value="${url.lc_1}" />
+        <property name="username" value="${username.lc_1}" />
+        <property name="password" value="${password.lc_1}" />
     </bean>
+
+    <bean id="ds_lc_2" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.lc_2}" />
+        <property name="username" value="${username.lc_2}" />
+        <property name="password" value="${password.lc_2}" />
+    </bean>
+
+    <bean id="ds_lc_3" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.lc_3}" />
+        <property name="username" value="${username.lc_3}" />
+        <property name="password" value="${password.lc_3}" />
+    </bean>
+
+    <bean id="ds_lc_4" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.lc_4}" />
+        <property name="username" value="${username.lc_4}" />
+        <property name="password" value="${password.lc_4}" />
+    </bean>
+
+    <bean id="ds_lc_5" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.lc_5}" />
+        <property name="username" value="${username.lc_5}" />
+        <property name="password" value="${password.lc_5}" />
+    </bean>
+
+    <bean id="ds_lc_6" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.lc_6}" />
+        <property name="username" value="${username.lc_6}" />
+        <property name="password" value="${password.lc_6}" />
+    </bean>
+
+    <bean id="ds_lc_7" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.lc_7}" />
+        <property name="username" value="${username.lc_7}" />
+        <property name="password" value="${password.lc_7}" />
+    </bean>
+
+    <bean id="ds_lc_8" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.lc_8}" />
+        <property name="username" value="${username.lc_8}" />
+        <property name="password" value="${password.lc_8}" />
+    </bean>
+
+    <bean id="ds_lc_9" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close" depends-on="propertyConfigurer">
+        <property name="driverClassName" value="${driver}" />
+        <property name="url" value="${url.lc_9}" />
+        <property name="username" value="${username.lc_9}" />
+        <property name="password" value="${password.lc_9}" />
+    </bean>
+
 
 </beans>
 
