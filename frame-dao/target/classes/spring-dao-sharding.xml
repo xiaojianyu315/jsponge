@@ -7,7 +7,18 @@
                         http://www.dangdang.com/schema/ddframe/rdb
                         http://www.dangdang.com/schema/ddframe/rdb/rdb.xsd">
 
-    <rdb:strategy id="tableShardingStrategy" sharding-columns="user_id" algorithm-class="org.easyadmin.dao.strategy.MemberIdTableShardingAlgorithm"/>
+    <!--<rdb:strategy id="tableShardingStrategy" sharding-columns="user_id" algorithm-class="MemberIdTableShardingAlgorithm"/>-->
+
+    <!-- 路由表、路由库规则配置，可以指定algorithm-class专门自己实现具体的路由规则，也可以使用表达式-->
+    <!--<rdb:strategy id="userDatabaseShardingStrategy" sharding-columns="user_id" algorithm-class="com.fulihui.sharding.jdbc.algorithm.UserDatabaseShardingAlgorithm"/>-->
+    <!--<rdb:strategy id="userTableShardingStrategy" sharding-columns="user_id" algorithm-class="com.fulihui.sharding.jdbc.algorithm.UserTableShardingAlgorithm"/>-->
+
+    <!-- 使用表达式方式 -->
+    <rdb:strategy id="memberIdDatabaseShardingStrategy" sharding-columns="member_id" algorithm-expression="lc_${member_id.longValue() % 100 / 10}"/>
+
+    <rdb:strategy id="memberIdTableShardingStrategy" sharding-columns="member_id" algorithm-expression="lc_login_${member_id.longValue() % 100}"/>
+
+
 
     <rdb:data-source id="shardingDataSource">
         <rdb:sharding-rule data-sources="ds_test" default-data-source="ds_test">
@@ -16,6 +27,10 @@
                 <rdb:table-rule logic-table="member_details" actual-tables="member_details_tbl_${[0,1,2,3,4,5,6,7,8,9]}${0..9}"  table-strategy="tableShardingStrategy"/>
             </rdb:table-rules>
         </rdb:sharding-rule>
+        <rdb:props>
+            <prop key="metrics.enable">true</prop>
+            <prop key="sql.show">true</prop>
+        </rdb:props>
     </rdb:data-source>
 
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">

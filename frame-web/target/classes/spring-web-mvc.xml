@@ -70,7 +70,7 @@
 
     <!--拦截器-->
    <mvc:interceptors>
-       <bean class="org.easyadmin.web.interceptor.ParamPrintInterceptor"/>
+       <bean class="org.easy.web.interceptor.ParamPrintInterceptor"/>
    </mvc:interceptors>
 
 
