@@ -11,10 +11,26 @@
         http://www.springframework.org/schema/task/spring-task.xsd"
        default-autowire="byName">
 
+
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+                <!-- 使用locations属性定义多个配置文件 -->
+        <property name="locations">
+            <list>
+                <value>classpath*:jdbc.properties</value>
+                <value>classpath*:redis.properties</value>
+            </list>
+        </property>
+        <property name="fileEncoding">
+            <value>UTF-8</value>
+        </property>
+    </bean>
+
+
     <import resource="classpath:spring-context-service.xml"/>
     <import resource="classpath:spring-web-mvc.xml"/>
-    <context:component-scan base-package="org.easyadmin.web">
-        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+    <import resource="classpath:spring-web-cache.xml"/>
+    <context:component-scan base-package="org.easy.web">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
     <task:annotation-driven executor="myExecutor"/>

@@ -21,6 +21,9 @@
           <element id="archive" name="frame-service-1.0.jar">
             <element id="module-output" name="frame-service" />
           </element>
+          <element id="archive" name="frame-dao-1.0.jar">
+            <element id="module-output" name="frame-dao" />
+          </element>
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.31" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.40" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:4.2.9.RELEASE" />
@@ -40,6 +43,14 @@
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.6" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.8.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:1.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.13.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.3.10.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.8.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.4.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.9.RELEASE" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.9.RELEASE" />
@@ -47,7 +58,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.9.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.2.9.RELEASE" />
