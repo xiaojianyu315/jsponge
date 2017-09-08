@@ -15,21 +15,21 @@
 
     <!-- 使用表达式方式 -->
     <rdb:strategy id="memberIdDatabaseShardingStrategy" sharding-columns="member_id"
-                  algorithm-expression="lc_${member_id.longValue() % 100 / 10}"/>
+                  algorithm-class="org.easy.dao.strategy.MemberIdDatabaseShardingAlgorithm"/>
 
     <rdb:strategy id="memberIdTableShardingStrategy" sharding-columns="member_id"
-                  algorithm-expression="lc_login_${member_id.longValue() % 100}"/>
+                  algorithm-class="org.easy.dao.strategy.MemberIdTableShardingAlgorithm"/>
 
 
-    <rdb:data-source id="shardingDataSource">
+    <rdb:data-source id="shardingDataSource" >
         <rdb:sharding-rule default-data-source="ds_lc"
-                           data-sources="ds_lc_0,ds_lc_1,ds_lc_2,ds_lc_3,ds_lc_4,ds_lc_5,ds_lc_6,ds_lc_7,ds_lc_8,ds_lc_9">
+                           data-sources="ds_lc,ds_lc_00,ds_lc_01,ds_lc_02,ds_lc_03,ds_lc_04,ds_lc_05,ds_lc_06,ds_lc_07,ds_lc_08,ds_lc_09">
             <rdb:table-rules>
-                <rdb:table-rule logic-table="lc_member"
-                                actual-tables="lc_member_${0..99}"
-                                database-strategy="memberIdDatabaseShardingStrategy"
-                                table-strategy="memberIdTableShardingStrategy"
-                />
+                <!--<rdb:table-rule logic-table="lc_member"-->
+                                <!--actual-tables="lc_member_${0..99}"-->
+                                <!--database-strategy="memberIdDatabaseShardingStrategy"-->
+                                <!--table-strategy="memberIdTableShardingStrategy"-->
+                <!--/>-->
 
                 <rdb:table-rule logic-table="lc_token"
                                 actual-tables="lc_token_${0..99}"
@@ -38,7 +38,114 @@
                 />
 
                 <rdb:table-rule logic-table="lc_order"
-                                actual-tables="lc_order_${0..99}"
+                                actual-tables="lc_order_"
+                                database-strategy="memberIdDatabaseShardingStrategy"
+                                table-strategy="memberIdTableShardingStrategy"
+                />
+
+                <rdb:table-rule logic-table="lc_test"
+                                actual-tables="
+                                lc_test_000,
+                                lc_test_001,
+                                lc_test_002,
+                                lc_test_003,
+                                lc_test_004,
+                                lc_test_005,
+                                lc_test_006,
+                                lc_test_007,
+                                lc_test_008,
+                                lc_test_009,
+                                lc_test_010,
+                                lc_test_011,
+                                lc_test_012,
+                                lc_test_013,
+                                lc_test_014,
+                                lc_test_015,
+                                lc_test_016,
+                                lc_test_017,
+                                lc_test_018,
+                                lc_test_019,
+                                lc_test_020,
+                                lc_test_021,
+                                lc_test_022,
+                                lc_test_023,
+                                lc_test_024,
+                                lc_test_025,
+                                lc_test_026,
+                                lc_test_027,
+                                lc_test_028,
+                                lc_test_029,
+                                lc_test_030,
+                                lc_test_031,
+                                lc_test_032,
+                                lc_test_033,
+                                lc_test_034,
+                                lc_test_035,
+                                lc_test_036,
+                                lc_test_037,
+                                lc_test_038,
+                                lc_test_039,
+                                lc_test_040,
+                                lc_test_041,
+                                lc_test_042,
+                                lc_test_043,
+                                lc_test_044,
+                                lc_test_045,
+                                lc_test_046,
+                                lc_test_047,
+                                lc_test_048,
+                                lc_test_049,
+                                lc_test_050,
+                                lc_test_051,
+                                lc_test_052,
+                                lc_test_053,
+                                lc_test_054,
+                                lc_test_055,
+                                lc_test_056,
+                                lc_test_057,
+                                lc_test_058,
+                                lc_test_059,
+                                lc_test_060,
+                                lc_test_061,
+                                lc_test_062,
+                                lc_test_063,
+                                lc_test_064,
+                                lc_test_065,
+                                lc_test_066,
+                                lc_test_067,
+                                lc_test_068,
+                                lc_test_069,
+                                lc_test_070,
+                                lc_test_071,
+                                lc_test_072,
+                                lc_test_073,
+                                lc_test_074,
+                                lc_test_075,
+                                lc_test_076,
+                                lc_test_077,
+                                lc_test_078,
+                                lc_test_079,
+                                lc_test_080,
+                                lc_test_081,
+                                lc_test_082,
+                                lc_test_083,
+                                lc_test_084,
+                                lc_test_085,
+                                lc_test_086,
+                                lc_test_087,
+                                lc_test_088,
+                                lc_test_089,
+                                lc_test_090,
+                                lc_test_091,
+                                lc_test_092,
+                                lc_test_093,
+                                lc_test_094,
+                                lc_test_095,
+                                lc_test_096,
+                                lc_test_097,
+                                lc_test_098,
+                                lc_test_099
+                                "
                                 database-strategy="memberIdDatabaseShardingStrategy"
                                 table-strategy="memberIdTableShardingStrategy"
                 />

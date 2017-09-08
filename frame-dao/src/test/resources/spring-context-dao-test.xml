@@ -9,6 +9,6 @@
        default-autowire="byName">
 
     <import resource="classpath:spring-dao-sharding.xml"/>
-    <context:component-scan base-package="org.easyadmin.dao"/>
+    <context:component-scan base-package="org.easy.dao"/>
 </beans>
 

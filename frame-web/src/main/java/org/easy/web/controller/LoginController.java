@@ -2,7 +2,7 @@ package org.easy.web.controller;
 
 
 
-import org.easy.service.LoginService;
+import org.easy.service.ILcLoginService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -17,7 +17,7 @@ import java.util.Map;
 public class LoginController  {
 
 	@Resource
-	private LoginService loginService;
+	private ILcLoginService iLcLoginService;
 
 	/**
 	 * 登录
@@ -26,7 +26,7 @@ public class LoginController  {
 	@ResponseBody
 	@RequestMapping("/login")
 	public Map login(HttpServletRequest request, HttpServletResponse response) {
-//		loginService.inserOrder();
+		iLcLoginService.insertOrder();
 		Map m = new HashMap();
 		m.put("a",1);
 		return m;

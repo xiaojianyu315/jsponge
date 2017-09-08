@@ -3,6 +3,7 @@ package org.easy.dao.strategy;
 import com.dangdang.ddframe.rdb.sharding.api.ShardingValue;
 import com.dangdang.ddframe.rdb.sharding.api.strategy.table.SingleKeyTableShardingAlgorithm;
 import com.google.common.collect.Range;
+import org.easy.common.util.StringUtil;
 
 import java.util.Collection;
 import java.util.LinkedHashSet;
@@ -19,10 +20,10 @@ public class MemberIdTableShardingAlgorithm implements SingleKeyTableShardingAlg
         Collection<String> result = new LinkedHashSet<String>(tableNames.size());
         Range<Long> range = (Range<Long>) shardingValue.getValueRange();
         for (long i = range.lowerEndpoint(); i <= range.upperEndpoint(); i++) {
-            Long modValue = i % 100;
-            String modStr = modValue < 10 ? "0" + modValue : modValue.toString();
+            String modValue = i % 100 + "";
+            String index = StringUtil.padRight(modValue, 3, '0');
             for (String each : tableNames) {
-                if (each.endsWith(modStr)) {
+                if (each.endsWith(index)) {
                     result.add(each);
                 }
             }
@@ -34,10 +35,10 @@ public class MemberIdTableShardingAlgorithm implements SingleKeyTableShardingAlg
      * sql == 规则
      */
     public String doEqualSharding(Collection<String> tableNames, ShardingValue<Long> shardingValue) {
-        Long modValue = shardingValue.getValue() % 100;
-        String modStr = modValue < 10 ? "0" + modValue : modValue.toString();
+        String modValue = shardingValue.getValue() % 100 +"";
+        String index = StringUtil.padRight(modValue, 3, '0');
         for (String each : tableNames) {
-            if (each.endsWith(modStr)) {
+            if (each.endsWith(index)) {
                 return each;
             }
         }
@@ -51,10 +52,10 @@ public class MemberIdTableShardingAlgorithm implements SingleKeyTableShardingAlg
 
         Collection<String> result = new LinkedHashSet<String>(tableNames.size());
         for (long value : shardingValue.getValues()) {
-            Long modValue = value % 100;
-            String modStr = modValue < 10 ? "0" + modValue : modValue.toString();
+            String modValue = value % 100 + "";
+            String index = StringUtil.padRight(modValue, 3, '0');
             for (String tableName : tableNames) {
-                if (tableName.endsWith(modStr)) {
+                if (tableName.endsWith(index)) {
                     result.add(tableName);
                 }
             }

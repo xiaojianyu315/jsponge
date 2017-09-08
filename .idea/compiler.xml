@@ -45,30 +45,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
-      <module name="admin-common" target="1.7" />
-      <module name="admin-dao" target="1.7" />
-      <module name="admin-generate" target="1.7" />
-      <module name="admin-infra" target="1.7" />
-      <module name="admin-service" target="1.7" />
-      <module name="admin-web" target="1.6" />
-      <module name="easy-admin" target="1.7" />
       <module name="easy-frame" target="1.7" />
-      <module name="easy-web" target="1.6" />
       <module name="frame-common" target="1.7" />
       <module name="frame-dao" target="1.7" />
       <module name="frame-generate" target="1.7" />
       <module name="frame-infra" target="1.7" />
       <module name="frame-service" target="1.7" />
       <module name="frame-web" target="1.6" />
-      <module name="j-cms" target="1.7" />
-      <module name="japp" target="1.7" />
-      <module name="japp-common" target="1.5" />
-      <module name="japp-dao" target="1.7" />
-      <module name="japp-generate" target="1.7" />
-      <module name="japp-infra" target="1.7" />
-      <module name="japp-service" target="1.7" />
-      <module name="japp-web" target="1.6" />
-      <module name="open-admin" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

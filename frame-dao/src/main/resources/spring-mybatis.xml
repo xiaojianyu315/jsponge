@@ -16,7 +16,7 @@
         <!-- 自动扫描Mapping.xml文件 -->
         <property name="mapperLocations" value="classpath:mybatis/*/*.xml"/>
         <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
-        <property name="typeAliasesPackage" value="org.easyadmin.dao.entity"/>
+        <property name="typeAliasesPackage" value="org.easy.dao.entity"/>
         <property name="plugins">
             <array>
                 <!-- 分页插件配置 -->
@@ -57,7 +57,7 @@
 
     <!-- MyBatis 动态扫描  -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="org.easyadmin.dao.mapper"/>
+        <property name="basePackage" value="org.easy.dao.mapper"/>
     </bean>
 
     <!-- 配置事务管理 -->

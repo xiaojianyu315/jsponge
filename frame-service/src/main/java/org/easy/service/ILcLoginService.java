@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.service.IService;
  * @since 2017-08-16
  */
 public interface ILcLoginService extends IService<LcLogin> {
-	
+    public void insertOrder();
 }

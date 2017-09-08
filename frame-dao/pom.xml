@@ -51,7 +51,7 @@
             <artifactId>fddl-sequence</artifactId>
             <version>0.2</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/../frame-web/src/main/webapp/WEB-INF/lib/fddl-sequence-0.2.jar</systemPath>
+            <systemPath>${project.basedir}/../frame-web/src/main/webapp/WEB-INF/lib/sequence-0.2.jar</systemPath>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus -->
         <dependency>
@@ -63,26 +63,26 @@
         <dependency>
             <groupId>com.dangdang</groupId>
             <artifactId>sharding-jdbc-core</artifactId>
-            <version>1.5.0</version>
+            <version>1.5.3</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.dangdang/sharding-jdbc-config-common -->
         <dependency>
             <groupId>com.dangdang</groupId>
             <artifactId>sharding-jdbc-config-common</artifactId>
-            <version>1.5.0</version>
+            <version>1.5.3</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.dangdang/sharding-jdbc-transaction-storage -->
         <dependency>
             <groupId>com.dangdang</groupId>
             <artifactId>sharding-jdbc-transaction-storage</artifactId>
-            <version>1.5.0</version>
+            <version>1.5.3</version>
         </dependency>
         <dependency>
             <groupId>com.dangdang</groupId>
             <artifactId>sharding-jdbc-config-spring</artifactId>
-            <version>1.5.0</version>
+            <version>1.5.3</version>
         </dependency>
     </dependencies>
 </project>

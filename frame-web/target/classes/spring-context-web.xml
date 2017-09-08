@@ -23,12 +23,13 @@
         <property name="fileEncoding">
             <value>UTF-8</value>
         </property>
+        <property name="ignoreUnresolvablePlaceholders" value="true" />
     </bean>
 
 
     <import resource="classpath:spring-context-service.xml"/>
     <import resource="classpath:spring-web-mvc.xml"/>
-    <import resource="classpath:spring-web-cache.xml"/>
+    <!--<import resource="classpath:spring-web-cache.xml"/>-->
     <context:component-scan base-package="org.easy.web">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>

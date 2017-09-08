@@ -1,7 +1,7 @@
-USE lc_0;
+USE lc_00;
 
 
-CREATE TABLE lc_login_0 (
+CREATE TABLE lc_login_000 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -17,7 +17,7 @@ CREATE TABLE lc_login_0 (
 
 
 
-CREATE TABLE lc_login_1 (
+CREATE TABLE lc_login_001 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -33,7 +33,7 @@ CREATE TABLE lc_login_1 (
 
 
 
-CREATE TABLE lc_login_2 (
+CREATE TABLE lc_login_002 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -49,7 +49,7 @@ CREATE TABLE lc_login_2 (
 
 
 
-CREATE TABLE lc_login_3 (
+CREATE TABLE lc_login_003 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -65,7 +65,7 @@ CREATE TABLE lc_login_3 (
 
 
 
-CREATE TABLE lc_login_4 (
+CREATE TABLE lc_login_004 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -81,7 +81,7 @@ CREATE TABLE lc_login_4 (
 
 
 
-CREATE TABLE lc_login_5 (
+CREATE TABLE lc_login_005 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -97,7 +97,7 @@ CREATE TABLE lc_login_5 (
 
 
 
-CREATE TABLE lc_login_6 (
+CREATE TABLE lc_login_006 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -113,7 +113,7 @@ CREATE TABLE lc_login_6 (
 
 
 
-CREATE TABLE lc_login_7 (
+CREATE TABLE lc_login_007 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -129,7 +129,7 @@ CREATE TABLE lc_login_7 (
 
 
 
-CREATE TABLE lc_login_8 (
+CREATE TABLE lc_login_008 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -145,7 +145,7 @@ CREATE TABLE lc_login_8 (
 
 
 
-CREATE TABLE lc_login_9 (
+CREATE TABLE lc_login_009 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -160,10 +160,10 @@ CREATE TABLE lc_login_9 (
 
 
 
-USE lc_1;
+USE lc_01;
 
 
-CREATE TABLE lc_login_10 (
+CREATE TABLE lc_login_010 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -179,7 +179,7 @@ CREATE TABLE lc_login_10 (
 
 
 
-CREATE TABLE lc_login_11 (
+CREATE TABLE lc_login_011 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -195,7 +195,7 @@ CREATE TABLE lc_login_11 (
 
 
 
-CREATE TABLE lc_login_12 (
+CREATE TABLE lc_login_012 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -211,7 +211,7 @@ CREATE TABLE lc_login_12 (
 
 
 
-CREATE TABLE lc_login_13 (
+CREATE TABLE lc_login_013 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -227,7 +227,7 @@ CREATE TABLE lc_login_13 (
 
 
 
-CREATE TABLE lc_login_14 (
+CREATE TABLE lc_login_014 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -243,7 +243,7 @@ CREATE TABLE lc_login_14 (
 
 
 
-CREATE TABLE lc_login_15 (
+CREATE TABLE lc_login_015 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -259,7 +259,7 @@ CREATE TABLE lc_login_15 (
 
 
 
-CREATE TABLE lc_login_16 (
+CREATE TABLE lc_login_016 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -275,7 +275,7 @@ CREATE TABLE lc_login_16 (
 
 
 
-CREATE TABLE lc_login_17 (
+CREATE TABLE lc_login_017 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -291,7 +291,7 @@ CREATE TABLE lc_login_17 (
 
 
 
-CREATE TABLE lc_login_18 (
+CREATE TABLE lc_login_018 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -307,7 +307,7 @@ CREATE TABLE lc_login_18 (
 
 
 
-CREATE TABLE lc_login_19 (
+CREATE TABLE lc_login_019 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -322,10 +322,10 @@ CREATE TABLE lc_login_19 (
 
 
 
-USE lc_2;
+USE lc_02;
 
 
-CREATE TABLE lc_login_20 (
+CREATE TABLE lc_login_020 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -341,7 +341,7 @@ CREATE TABLE lc_login_20 (
 
 
 
-CREATE TABLE lc_login_21 (
+CREATE TABLE lc_login_021 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -357,7 +357,7 @@ CREATE TABLE lc_login_21 (
 
 
 
-CREATE TABLE lc_login_22 (
+CREATE TABLE lc_login_022 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -373,7 +373,7 @@ CREATE TABLE lc_login_22 (
 
 
 
-CREATE TABLE lc_login_23 (
+CREATE TABLE lc_login_023 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -389,7 +389,7 @@ CREATE TABLE lc_login_23 (
 
 
 
-CREATE TABLE lc_login_24 (
+CREATE TABLE lc_login_024 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -405,7 +405,7 @@ CREATE TABLE lc_login_24 (
 
 
 
-CREATE TABLE lc_login_25 (
+CREATE TABLE lc_login_025 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -421,7 +421,7 @@ CREATE TABLE lc_login_25 (
 
 
 
-CREATE TABLE lc_login_26 (
+CREATE TABLE lc_login_026 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -437,7 +437,7 @@ CREATE TABLE lc_login_26 (
 
 
 
-CREATE TABLE lc_login_27 (
+CREATE TABLE lc_login_027 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -453,7 +453,7 @@ CREATE TABLE lc_login_27 (
 
 
 
-CREATE TABLE lc_login_28 (
+CREATE TABLE lc_login_028 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -469,7 +469,7 @@ CREATE TABLE lc_login_28 (
 
 
 
-CREATE TABLE lc_login_29 (
+CREATE TABLE lc_login_029 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -484,10 +484,10 @@ CREATE TABLE lc_login_29 (
 
 
 
-USE lc_3;
+USE lc_03;
 
 
-CREATE TABLE lc_login_30 (
+CREATE TABLE lc_login_030 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -503,7 +503,7 @@ CREATE TABLE lc_login_30 (
 
 
 
-CREATE TABLE lc_login_31 (
+CREATE TABLE lc_login_031 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -519,7 +519,7 @@ CREATE TABLE lc_login_31 (
 
 
 
-CREATE TABLE lc_login_32 (
+CREATE TABLE lc_login_032 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -535,7 +535,7 @@ CREATE TABLE lc_login_32 (
 
 
 
-CREATE TABLE lc_login_33 (
+CREATE TABLE lc_login_033 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -551,7 +551,7 @@ CREATE TABLE lc_login_33 (
 
 
 
-CREATE TABLE lc_login_34 (
+CREATE TABLE lc_login_034 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -567,7 +567,7 @@ CREATE TABLE lc_login_34 (
 
 
 
-CREATE TABLE lc_login_35 (
+CREATE TABLE lc_login_035 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -583,7 +583,7 @@ CREATE TABLE lc_login_35 (
 
 
 
-CREATE TABLE lc_login_36 (
+CREATE TABLE lc_login_036 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -599,7 +599,7 @@ CREATE TABLE lc_login_36 (
 
 
 
-CREATE TABLE lc_login_37 (
+CREATE TABLE lc_login_037 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -615,7 +615,7 @@ CREATE TABLE lc_login_37 (
 
 
 
-CREATE TABLE lc_login_38 (
+CREATE TABLE lc_login_038 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -631,7 +631,7 @@ CREATE TABLE lc_login_38 (
 
 
 
-CREATE TABLE lc_login_39 (
+CREATE TABLE lc_login_039 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -646,10 +646,10 @@ CREATE TABLE lc_login_39 (
 
 
 
-USE lc_4;
+USE lc_04;
 
 
-CREATE TABLE lc_login_40 (
+CREATE TABLE lc_login_040 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -665,7 +665,7 @@ CREATE TABLE lc_login_40 (
 
 
 
-CREATE TABLE lc_login_41 (
+CREATE TABLE lc_login_041 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -681,7 +681,7 @@ CREATE TABLE lc_login_41 (
 
 
 
-CREATE TABLE lc_login_42 (
+CREATE TABLE lc_login_042 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -697,7 +697,7 @@ CREATE TABLE lc_login_42 (
 
 
 
-CREATE TABLE lc_login_43 (
+CREATE TABLE lc_login_043 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -713,7 +713,7 @@ CREATE TABLE lc_login_43 (
 
 
 
-CREATE TABLE lc_login_44 (
+CREATE TABLE lc_login_044 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -729,7 +729,7 @@ CREATE TABLE lc_login_44 (
 
 
 
-CREATE TABLE lc_login_45 (
+CREATE TABLE lc_login_045 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -745,7 +745,7 @@ CREATE TABLE lc_login_45 (
 
 
 
-CREATE TABLE lc_login_46 (
+CREATE TABLE lc_login_046 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -761,7 +761,7 @@ CREATE TABLE lc_login_46 (
 
 
 
-CREATE TABLE lc_login_47 (
+CREATE TABLE lc_login_047 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -777,7 +777,7 @@ CREATE TABLE lc_login_47 (
 
 
 
-CREATE TABLE lc_login_48 (
+CREATE TABLE lc_login_048 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -793,7 +793,7 @@ CREATE TABLE lc_login_48 (
 
 
 
-CREATE TABLE lc_login_49 (
+CREATE TABLE lc_login_049 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -808,10 +808,10 @@ CREATE TABLE lc_login_49 (
 
 
 
-USE lc_5;
+USE lc_05;
 
 
-CREATE TABLE lc_login_50 (
+CREATE TABLE lc_login_050 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -827,7 +827,7 @@ CREATE TABLE lc_login_50 (
 
 
 
-CREATE TABLE lc_login_51 (
+CREATE TABLE lc_login_051 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -843,7 +843,7 @@ CREATE TABLE lc_login_51 (
 
 
 
-CREATE TABLE lc_login_52 (
+CREATE TABLE lc_login_052 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -859,7 +859,7 @@ CREATE TABLE lc_login_52 (
 
 
 
-CREATE TABLE lc_login_53 (
+CREATE TABLE lc_login_053 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -875,7 +875,7 @@ CREATE TABLE lc_login_53 (
 
 
 
-CREATE TABLE lc_login_54 (
+CREATE TABLE lc_login_054 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -891,7 +891,7 @@ CREATE TABLE lc_login_54 (
 
 
 
-CREATE TABLE lc_login_55 (
+CREATE TABLE lc_login_055 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -907,7 +907,7 @@ CREATE TABLE lc_login_55 (
 
 
 
-CREATE TABLE lc_login_56 (
+CREATE TABLE lc_login_056 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -923,7 +923,7 @@ CREATE TABLE lc_login_56 (
 
 
 
-CREATE TABLE lc_login_57 (
+CREATE TABLE lc_login_057 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -939,7 +939,7 @@ CREATE TABLE lc_login_57 (
 
 
 
-CREATE TABLE lc_login_58 (
+CREATE TABLE lc_login_058 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -955,7 +955,7 @@ CREATE TABLE lc_login_58 (
 
 
 
-CREATE TABLE lc_login_59 (
+CREATE TABLE lc_login_059 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -970,10 +970,10 @@ CREATE TABLE lc_login_59 (
 
 
 
-USE lc_6;
+USE lc_06;
 
 
-CREATE TABLE lc_login_60 (
+CREATE TABLE lc_login_060 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -989,7 +989,7 @@ CREATE TABLE lc_login_60 (
 
 
 
-CREATE TABLE lc_login_61 (
+CREATE TABLE lc_login_061 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1005,7 +1005,7 @@ CREATE TABLE lc_login_61 (
 
 
 
-CREATE TABLE lc_login_62 (
+CREATE TABLE lc_login_062 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1021,7 +1021,7 @@ CREATE TABLE lc_login_62 (
 
 
 
-CREATE TABLE lc_login_63 (
+CREATE TABLE lc_login_063 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1037,7 +1037,7 @@ CREATE TABLE lc_login_63 (
 
 
 
-CREATE TABLE lc_login_64 (
+CREATE TABLE lc_login_064 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1053,7 +1053,7 @@ CREATE TABLE lc_login_64 (
 
 
 
-CREATE TABLE lc_login_65 (
+CREATE TABLE lc_login_065 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1069,7 +1069,7 @@ CREATE TABLE lc_login_65 (
 
 
 
-CREATE TABLE lc_login_66 (
+CREATE TABLE lc_login_066 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1085,7 +1085,7 @@ CREATE TABLE lc_login_66 (
 
 
 
-CREATE TABLE lc_login_67 (
+CREATE TABLE lc_login_067 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1101,7 +1101,7 @@ CREATE TABLE lc_login_67 (
 
 
 
-CREATE TABLE lc_login_68 (
+CREATE TABLE lc_login_068 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1117,7 +1117,7 @@ CREATE TABLE lc_login_68 (
 
 
 
-CREATE TABLE lc_login_69 (
+CREATE TABLE lc_login_069 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1132,10 +1132,10 @@ CREATE TABLE lc_login_69 (
 
 
 
-USE lc_7;
+USE lc_07;
 
 
-CREATE TABLE lc_login_70 (
+CREATE TABLE lc_login_070 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1151,7 +1151,7 @@ CREATE TABLE lc_login_70 (
 
 
 
-CREATE TABLE lc_login_71 (
+CREATE TABLE lc_login_071 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1167,7 +1167,7 @@ CREATE TABLE lc_login_71 (
 
 
 
-CREATE TABLE lc_login_72 (
+CREATE TABLE lc_login_072 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1183,7 +1183,7 @@ CREATE TABLE lc_login_72 (
 
 
 
-CREATE TABLE lc_login_73 (
+CREATE TABLE lc_login_073 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1199,7 +1199,7 @@ CREATE TABLE lc_login_73 (
 
 
 
-CREATE TABLE lc_login_74 (
+CREATE TABLE lc_login_074 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1215,7 +1215,7 @@ CREATE TABLE lc_login_74 (
 
 
 
-CREATE TABLE lc_login_75 (
+CREATE TABLE lc_login_075 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1231,7 +1231,7 @@ CREATE TABLE lc_login_75 (
 
 
 
-CREATE TABLE lc_login_76 (
+CREATE TABLE lc_login_076 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1247,7 +1247,7 @@ CREATE TABLE lc_login_76 (
 
 
 
-CREATE TABLE lc_login_77 (
+CREATE TABLE lc_login_077 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1263,7 +1263,7 @@ CREATE TABLE lc_login_77 (
 
 
 
-CREATE TABLE lc_login_78 (
+CREATE TABLE lc_login_078 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1279,7 +1279,7 @@ CREATE TABLE lc_login_78 (
 
 
 
-CREATE TABLE lc_login_79 (
+CREATE TABLE lc_login_079 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1294,10 +1294,10 @@ CREATE TABLE lc_login_79 (
 
 
 
-USE lc_8;
+USE lc_08;
 
 
-CREATE TABLE lc_login_80 (
+CREATE TABLE lc_login_080 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1313,7 +1313,7 @@ CREATE TABLE lc_login_80 (
 
 
 
-CREATE TABLE lc_login_81 (
+CREATE TABLE lc_login_081 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1329,7 +1329,7 @@ CREATE TABLE lc_login_81 (
 
 
 
-CREATE TABLE lc_login_82 (
+CREATE TABLE lc_login_082 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1345,7 +1345,7 @@ CREATE TABLE lc_login_82 (
 
 
 
-CREATE TABLE lc_login_83 (
+CREATE TABLE lc_login_083 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1361,7 +1361,7 @@ CREATE TABLE lc_login_83 (
 
 
 
-CREATE TABLE lc_login_84 (
+CREATE TABLE lc_login_084 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1377,7 +1377,7 @@ CREATE TABLE lc_login_84 (
 
 
 
-CREATE TABLE lc_login_85 (
+CREATE TABLE lc_login_085 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1393,7 +1393,7 @@ CREATE TABLE lc_login_85 (
 
 
 
-CREATE TABLE lc_login_86 (
+CREATE TABLE lc_login_086 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1409,7 +1409,7 @@ CREATE TABLE lc_login_86 (
 
 
 
-CREATE TABLE lc_login_87 (
+CREATE TABLE lc_login_087 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1425,7 +1425,7 @@ CREATE TABLE lc_login_87 (
 
 
 
-CREATE TABLE lc_login_88 (
+CREATE TABLE lc_login_088 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1441,7 +1441,7 @@ CREATE TABLE lc_login_88 (
 
 
 
-CREATE TABLE lc_login_89 (
+CREATE TABLE lc_login_089 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1456,10 +1456,10 @@ CREATE TABLE lc_login_89 (
 
 
 
-USE lc_9;
+USE lc_09;
 
 
-CREATE TABLE lc_login_90 (
+CREATE TABLE lc_login_090 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1475,7 +1475,7 @@ CREATE TABLE lc_login_90 (
 
 
 
-CREATE TABLE lc_login_91 (
+CREATE TABLE lc_login_091 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1491,7 +1491,7 @@ CREATE TABLE lc_login_91 (
 
 
 
-CREATE TABLE lc_login_92 (
+CREATE TABLE lc_login_092 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1507,7 +1507,7 @@ CREATE TABLE lc_login_92 (
 
 
 
-CREATE TABLE lc_login_93 (
+CREATE TABLE lc_login_093 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1523,7 +1523,7 @@ CREATE TABLE lc_login_93 (
 
 
 
-CREATE TABLE lc_login_94 (
+CREATE TABLE lc_login_094 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1539,7 +1539,7 @@ CREATE TABLE lc_login_94 (
 
 
 
-CREATE TABLE lc_login_95 (
+CREATE TABLE lc_login_095 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1555,7 +1555,7 @@ CREATE TABLE lc_login_95 (
 
 
 
-CREATE TABLE lc_login_96 (
+CREATE TABLE lc_login_096 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1571,7 +1571,7 @@ CREATE TABLE lc_login_96 (
 
 
 
-CREATE TABLE lc_login_97 (
+CREATE TABLE lc_login_097 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1587,7 +1587,7 @@ CREATE TABLE lc_login_97 (
 
 
 
-CREATE TABLE lc_login_98 (
+CREATE TABLE lc_login_098 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',
@@ -1603,7 +1603,7 @@ CREATE TABLE lc_login_98 (
 
 
 
-CREATE TABLE lc_login_99 (
+CREATE TABLE lc_login_099 (
   id bigint(20) NOT NULL COMMENT 'id',
   login_name varchar(200) NOT NULL COMMENT '登录名',
   login_pwd varchar(200) DEFAULT NULL COMMENT '登录密码',

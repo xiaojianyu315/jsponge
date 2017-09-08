@@ -48,11 +48,11 @@ public class GenShardTableSqlUtil {
             String tableName = table.split(" ")[2];
             StringBuilder sql = new StringBuilder();
             for (int i = 0; i < db_count; i++) {
-                sql.append("USE " + db_prefix + i + ";\n");
+                sql.append("USE " + db_prefix + padRight(String.valueOf(i),2,'0') + ";\n");
                 int tableStartIndex = i * every_db_table_count;
                 int tableEndIndex = tableStartIndex + (every_db_table_count - 1);
                 for (int j = tableStartIndex; j <= tableEndIndex; j++) {
-                    tableTemp = table.replace(tableName, tableName + "_" + (j));
+                    tableTemp = table.replace(tableName, tableName + "_" + (padRight(String.valueOf(j),3,'0')));
                     sql.append(tableTemp + "\n");
                 }
                 sql.append("\n");
@@ -71,5 +71,25 @@ public class GenShardTableSqlUtil {
         System.out.println("生成完毕, 耗时=" + entTime + "ms");
     }
 
+
+    /**
+     * 左补位
+     *
+     * @param srcStr 原字符串
+     * @param len    目标字符串长度
+     * @param alexin 补位字符
+     * @return 目标字符串
+     */
+    public static String padRight(String srcStr, int len, char alexin) {
+        int strlen = srcStr.length();
+        String str = "";
+        if (strlen < len) {
+            for (int i = 0; i < len - strlen; i++) {
+                str = str + alexin;
+            }
+        }
+        str = str + srcStr;
+        return str;
+    }
 
 }

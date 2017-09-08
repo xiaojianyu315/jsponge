@@ -1,12 +1,12 @@
 ##
 CREATE TABLE sequence (
   id int(11) NOT NULL AUTO_INCREMENT,
-  name varchar(100) NOT NULL COMMENT "序列名称",
-  value bigint(100) NOT NULL COMMENT "序列值",
+  name varchar(100) NOT NULL COMMENT '序列名称',
+  value bigint(100) NOT NULL COMMENT '序列值',
   gmt_modified datetime NOT NULL,
   PRIMARY KEY (id),
   UNIQUE KEY name (name)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT="序列号";
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='序列号';
 
 ## init data
 insert into sequence(name,value,gmt_modified) values("wlc_message",1000000000,now());

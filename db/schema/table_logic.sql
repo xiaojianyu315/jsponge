@@ -78,3 +78,11 @@ CREATE TABLE lc_order (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+===
+
+CREATE TABLE lc_test (
+  id bigint(20) NOT NULL  COMMENT '主键id',
+  member_id bigint(20) NOT NULL COMMENT 'memberid'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='测试表';

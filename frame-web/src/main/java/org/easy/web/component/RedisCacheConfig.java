@@ -16,8 +16,8 @@ import org.springframework.data.redis.core.RedisTemplate;
 
 import java.lang.reflect.Method;
 
-@Configuration
-@EnableCaching
+//@Configuration
+//@EnableCaching
 public class RedisCacheConfig extends CachingConfigurerSupport {
     protected final static Logger log = LoggerFactory.getLogger(RedisCacheConfig.class);
 

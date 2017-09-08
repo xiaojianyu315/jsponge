@@ -1,4 +1,4 @@
-package org.easyadmin;
+package org.easy;
 
 import junit.framework.TestCase;
 import org.apache.commons.lang.time.DateUtils;

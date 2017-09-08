@@ -1,4 +1,4 @@
-package org.easyadmin;
+package org.easy;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

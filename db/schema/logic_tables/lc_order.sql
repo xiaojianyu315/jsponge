@@ -1,7 +1,7 @@
-USE lc_0;
+USE lc_00;
 
 
-CREATE TABLE lc_order_0 (
+CREATE TABLE lc_order_000 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -35,7 +35,10 @@ CREATE TABLE lc_order_0 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_1 (
+
+
+
+CREATE TABLE lc_order_001 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -67,9 +70,12 @@ CREATE TABLE lc_order_1 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_2 (
+
+
+CREATE TABLE lc_order_002 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -101,9 +107,12 @@ CREATE TABLE lc_order_2 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_3 (
+CREATE TABLE lc_order_003 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -137,7 +146,10 @@ CREATE TABLE lc_order_3 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_4 (
+
+
+
+CREATE TABLE lc_order_004 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -169,9 +181,12 @@ CREATE TABLE lc_order_4 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_5 (
+
+
+CREATE TABLE lc_order_005 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -203,9 +218,12 @@ CREATE TABLE lc_order_5 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_6 (
+CREATE TABLE lc_order_006 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -239,7 +257,10 @@ CREATE TABLE lc_order_6 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_7 (
+
+
+
+CREATE TABLE lc_order_007 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -271,9 +292,12 @@ CREATE TABLE lc_order_7 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_8 (
+
+
+CREATE TABLE lc_order_008 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -305,9 +329,12 @@ CREATE TABLE lc_order_8 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_9 (
+CREATE TABLE lc_order_009 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -340,10 +367,13 @@ CREATE TABLE lc_order_9 (
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
-USE lc_1;
 
 
-CREATE TABLE lc_order_10 (
+
+USE lc_01;
+
+
+CREATE TABLE lc_order_010 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -375,9 +405,12 @@ CREATE TABLE lc_order_10 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_11 (
+
+CREATE TABLE lc_order_011 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -409,9 +442,12 @@ CREATE TABLE lc_order_11 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_12 (
+
+
+CREATE TABLE lc_order_012 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -443,9 +479,12 @@ CREATE TABLE lc_order_12 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_13 (
+
+
+CREATE TABLE lc_order_013 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -477,9 +516,12 @@ CREATE TABLE lc_order_13 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_14 (
+
+CREATE TABLE lc_order_014 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -511,9 +553,12 @@ CREATE TABLE lc_order_14 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_15 (
+
+
+CREATE TABLE lc_order_015 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -545,9 +590,12 @@ CREATE TABLE lc_order_15 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_16 (
+
+
+CREATE TABLE lc_order_016 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -579,9 +627,12 @@ CREATE TABLE lc_order_16 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_17 (
+CREATE TABLE lc_order_017 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -615,7 +666,10 @@ CREATE TABLE lc_order_17 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_18 (
+
+
+
+CREATE TABLE lc_order_018 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -647,9 +701,12 @@ CREATE TABLE lc_order_18 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_19 (
+
+CREATE TABLE lc_order_019 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -681,11 +738,14 @@ CREATE TABLE lc_order_19 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
-USE lc_2;
+USE lc_02;
 
 
-CREATE TABLE lc_order_20 (
+CREATE TABLE lc_order_020 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -719,7 +779,10 @@ CREATE TABLE lc_order_20 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_21 (
+
+
+
+CREATE TABLE lc_order_021 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -751,9 +814,12 @@ CREATE TABLE lc_order_21 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_22 (
+
+CREATE TABLE lc_order_022 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -785,9 +851,12 @@ CREATE TABLE lc_order_22 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_23 (
+
+
+CREATE TABLE lc_order_023 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -819,9 +888,12 @@ CREATE TABLE lc_order_23 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_24 (
+
+
+CREATE TABLE lc_order_024 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -853,9 +925,12 @@ CREATE TABLE lc_order_24 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_25 (
+CREATE TABLE lc_order_025 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -889,7 +964,10 @@ CREATE TABLE lc_order_25 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_26 (
+
+
+
+CREATE TABLE lc_order_026 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -921,9 +999,12 @@ CREATE TABLE lc_order_26 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_27 (
+
+
+CREATE TABLE lc_order_027 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -955,9 +1036,12 @@ CREATE TABLE lc_order_27 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_28 (
+CREATE TABLE lc_order_028 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -991,7 +1075,10 @@ CREATE TABLE lc_order_28 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_29 (
+
+
+
+CREATE TABLE lc_order_029 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1023,11 +1110,14 @@ CREATE TABLE lc_order_29 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
-USE lc_3;
 
 
-CREATE TABLE lc_order_30 (
+USE lc_03;
+
+
+CREATE TABLE lc_order_030 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1059,9 +1149,12 @@ CREATE TABLE lc_order_30 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_31 (
+CREATE TABLE lc_order_031 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1095,7 +1188,10 @@ CREATE TABLE lc_order_31 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_32 (
+
+
+
+CREATE TABLE lc_order_032 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1127,9 +1223,12 @@ CREATE TABLE lc_order_32 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_33 (
+
+
+CREATE TABLE lc_order_033 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1161,9 +1260,12 @@ CREATE TABLE lc_order_33 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_34 (
+CREATE TABLE lc_order_034 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1197,7 +1299,10 @@ CREATE TABLE lc_order_34 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_35 (
+
+
+
+CREATE TABLE lc_order_035 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1229,9 +1334,12 @@ CREATE TABLE lc_order_35 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_36 (
+
+CREATE TABLE lc_order_036 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1263,9 +1371,12 @@ CREATE TABLE lc_order_36 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_37 (
+
+
+CREATE TABLE lc_order_037 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1297,9 +1408,12 @@ CREATE TABLE lc_order_37 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_38 (
+
+
+CREATE TABLE lc_order_038 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1331,9 +1445,12 @@ CREATE TABLE lc_order_38 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_39 (
+
+CREATE TABLE lc_order_039 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1365,11 +1482,14 @@ CREATE TABLE lc_order_39 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
-USE lc_4;
 
 
-CREATE TABLE lc_order_40 (
+USE lc_04;
+
+
+CREATE TABLE lc_order_040 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1401,9 +1521,12 @@ CREATE TABLE lc_order_40 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_41 (
+
+
+CREATE TABLE lc_order_041 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1435,9 +1558,12 @@ CREATE TABLE lc_order_41 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_42 (
+CREATE TABLE lc_order_042 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1471,7 +1597,10 @@ CREATE TABLE lc_order_42 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_43 (
+
+
+
+CREATE TABLE lc_order_043 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1503,9 +1632,12 @@ CREATE TABLE lc_order_43 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_44 (
+
+CREATE TABLE lc_order_044 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1537,9 +1669,12 @@ CREATE TABLE lc_order_44 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_45 (
+CREATE TABLE lc_order_045 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1573,7 +1708,10 @@ CREATE TABLE lc_order_45 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_46 (
+
+
+
+CREATE TABLE lc_order_046 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1605,9 +1743,12 @@ CREATE TABLE lc_order_46 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_47 (
+
+CREATE TABLE lc_order_047 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1639,9 +1780,12 @@ CREATE TABLE lc_order_47 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_48 (
+
+
+CREATE TABLE lc_order_048 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1673,9 +1817,12 @@ CREATE TABLE lc_order_48 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_49 (
+
+
+CREATE TABLE lc_order_049 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1707,11 +1854,14 @@ CREATE TABLE lc_order_49 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
-USE lc_5;
+USE lc_05;
 
 
-CREATE TABLE lc_order_50 (
+CREATE TABLE lc_order_050 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1745,7 +1895,10 @@ CREATE TABLE lc_order_50 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_51 (
+
+
+
+CREATE TABLE lc_order_051 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1777,9 +1930,12 @@ CREATE TABLE lc_order_51 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_52 (
+
+
+CREATE TABLE lc_order_052 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1811,9 +1967,12 @@ CREATE TABLE lc_order_52 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_53 (
+CREATE TABLE lc_order_053 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1847,7 +2006,10 @@ CREATE TABLE lc_order_53 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_54 (
+
+
+
+CREATE TABLE lc_order_054 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1879,9 +2041,12 @@ CREATE TABLE lc_order_54 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_55 (
+
+
+CREATE TABLE lc_order_055 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1913,9 +2078,12 @@ CREATE TABLE lc_order_55 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_56 (
+CREATE TABLE lc_order_056 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1949,7 +2117,10 @@ CREATE TABLE lc_order_56 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_57 (
+
+
+
+CREATE TABLE lc_order_057 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -1981,9 +2152,12 @@ CREATE TABLE lc_order_57 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_58 (
+
+
+CREATE TABLE lc_order_058 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2015,9 +2189,12 @@ CREATE TABLE lc_order_58 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_59 (
+CREATE TABLE lc_order_059 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2050,10 +2227,13 @@ CREATE TABLE lc_order_59 (
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
-USE lc_6;
 
 
-CREATE TABLE lc_order_60 (
+
+USE lc_06;
+
+
+CREATE TABLE lc_order_060 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2085,9 +2265,12 @@ CREATE TABLE lc_order_60 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_61 (
+
+CREATE TABLE lc_order_061 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2119,9 +2302,12 @@ CREATE TABLE lc_order_61 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_62 (
+
+
+CREATE TABLE lc_order_062 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2153,9 +2339,12 @@ CREATE TABLE lc_order_62 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_63 (
+
+
+CREATE TABLE lc_order_063 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2187,9 +2376,12 @@ CREATE TABLE lc_order_63 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_64 (
+
+CREATE TABLE lc_order_064 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2221,9 +2413,12 @@ CREATE TABLE lc_order_64 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_65 (
+
+
+CREATE TABLE lc_order_065 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2255,9 +2450,12 @@ CREATE TABLE lc_order_65 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_66 (
+
+
+CREATE TABLE lc_order_066 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2289,9 +2487,12 @@ CREATE TABLE lc_order_66 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_67 (
+CREATE TABLE lc_order_067 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2325,7 +2526,10 @@ CREATE TABLE lc_order_67 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_68 (
+
+
+
+CREATE TABLE lc_order_068 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2357,9 +2561,12 @@ CREATE TABLE lc_order_68 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_69 (
+
+CREATE TABLE lc_order_069 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2391,11 +2598,14 @@ CREATE TABLE lc_order_69 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
-USE lc_7;
+USE lc_07;
 
 
-CREATE TABLE lc_order_70 (
+CREATE TABLE lc_order_070 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2429,7 +2639,10 @@ CREATE TABLE lc_order_70 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_71 (
+
+
+
+CREATE TABLE lc_order_071 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2461,9 +2674,12 @@ CREATE TABLE lc_order_71 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_72 (
+
+CREATE TABLE lc_order_072 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2495,9 +2711,12 @@ CREATE TABLE lc_order_72 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_73 (
+
+
+CREATE TABLE lc_order_073 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2529,9 +2748,12 @@ CREATE TABLE lc_order_73 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_74 (
+
+
+CREATE TABLE lc_order_074 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2563,9 +2785,12 @@ CREATE TABLE lc_order_74 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_75 (
+CREATE TABLE lc_order_075 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2599,7 +2824,10 @@ CREATE TABLE lc_order_75 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_76 (
+
+
+
+CREATE TABLE lc_order_076 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2631,9 +2859,12 @@ CREATE TABLE lc_order_76 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_77 (
+
+
+CREATE TABLE lc_order_077 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2665,9 +2896,12 @@ CREATE TABLE lc_order_77 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_78 (
+CREATE TABLE lc_order_078 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2701,7 +2935,10 @@ CREATE TABLE lc_order_78 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_79 (
+
+
+
+CREATE TABLE lc_order_079 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2733,11 +2970,14 @@ CREATE TABLE lc_order_79 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
-USE lc_8;
 
 
-CREATE TABLE lc_order_80 (
+USE lc_08;
+
+
+CREATE TABLE lc_order_080 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2769,9 +3009,12 @@ CREATE TABLE lc_order_80 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_81 (
+CREATE TABLE lc_order_081 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2805,7 +3048,10 @@ CREATE TABLE lc_order_81 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_82 (
+
+
+
+CREATE TABLE lc_order_082 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2837,9 +3083,12 @@ CREATE TABLE lc_order_82 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_83 (
+
+
+CREATE TABLE lc_order_083 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2871,9 +3120,12 @@ CREATE TABLE lc_order_83 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_84 (
+CREATE TABLE lc_order_084 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2907,7 +3159,10 @@ CREATE TABLE lc_order_84 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_85 (
+
+
+
+CREATE TABLE lc_order_085 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2939,9 +3194,12 @@ CREATE TABLE lc_order_85 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_86 (
+
+CREATE TABLE lc_order_086 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -2973,9 +3231,12 @@ CREATE TABLE lc_order_86 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_87 (
+
+
+CREATE TABLE lc_order_087 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3007,9 +3268,12 @@ CREATE TABLE lc_order_87 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_88 (
+
+
+CREATE TABLE lc_order_088 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3041,9 +3305,12 @@ CREATE TABLE lc_order_88 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_89 (
+
+CREATE TABLE lc_order_089 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3075,11 +3342,14 @@ CREATE TABLE lc_order_89 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
-USE lc_9;
 
 
-CREATE TABLE lc_order_90 (
+USE lc_09;
+
+
+CREATE TABLE lc_order_090 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3111,9 +3381,12 @@ CREATE TABLE lc_order_90 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_91 (
+
+
+CREATE TABLE lc_order_091 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3145,9 +3418,12 @@ CREATE TABLE lc_order_91 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_92 (
+CREATE TABLE lc_order_092 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3181,7 +3457,10 @@ CREATE TABLE lc_order_92 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_93 (
+
+
+
+CREATE TABLE lc_order_093 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3213,9 +3492,12 @@ CREATE TABLE lc_order_93 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_94 (
+
+CREATE TABLE lc_order_094 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3247,9 +3529,12 @@ CREATE TABLE lc_order_94 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 
 
-CREATE TABLE lc_order_95 (
+CREATE TABLE lc_order_095 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3283,7 +3568,10 @@ CREATE TABLE lc_order_95 (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
 
 
-CREATE TABLE lc_order_96 (
+
+
+
+CREATE TABLE lc_order_096 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3315,9 +3603,12 @@ CREATE TABLE lc_order_96 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
 
 
-CREATE TABLE lc_order_97 (
+
+CREATE TABLE lc_order_097 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3349,9 +3640,12 @@ CREATE TABLE lc_order_97 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_98 (
+
+
+CREATE TABLE lc_order_098 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3383,9 +3677,12 @@ CREATE TABLE lc_order_98 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
 
 
-CREATE TABLE lc_order_99 (
+
+
+CREATE TABLE lc_order_099 (
   id bigint(20) NOT NULL COMMENT '主键id',
   order_no varchar(50) NOT NULL COMMENT '订单号',
   product_type int(2) NOT NULL  COMMENT '产品类型 1-普通定期',
@@ -3417,4 +3714,7 @@ CREATE TABLE lc_order_99 (
   UNIQUE KEY IDX_UQE_memberid_orderno (member_id,order_no),
   KEY IDX_orderno (order_no)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='订单表';
+
+
+
 

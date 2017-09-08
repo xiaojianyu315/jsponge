@@ -8,7 +8,7 @@
 
     <bean id="sequenceDao" class="com.jfbank.fddl.client.sequence.impl.DefaultSequenceDao">
         <property name="dataSource">
-            <ref bean="dfs_test"/>
+            <ref bean="ds_lc"/>
         </property>
         <property name="retryTimes">
             <value>3</value>
