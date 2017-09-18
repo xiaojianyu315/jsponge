@@ -12,9 +12,11 @@
         <module name="easy-web" />
         <module name="frame-common" />
         <module name="frame-dao" />
+        <module name="frame-external-call" />
         <module name="frame-generate" />
         <module name="frame-infra" />
         <module name="frame-service" />
+        <module name="frame-tcp-server" />
         <module name="frame-web" />
         <module name="japp-common" />
         <module name="japp-dao" />
@@ -48,9 +50,11 @@
       <module name="easy-frame" target="1.7" />
       <module name="frame-common" target="1.7" />
       <module name="frame-dao" target="1.7" />
+      <module name="frame-external-call" target="1.7" />
       <module name="frame-generate" target="1.7" />
       <module name="frame-infra" target="1.7" />
       <module name="frame-service" target="1.7" />
+      <module name="frame-tcp-server" target="1.7" />
       <module name="frame-web" target="1.6" />
     </bytecodeTargetLevel>
   </component>

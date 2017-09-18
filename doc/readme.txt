@@ -2,4 +2,5 @@
 
 后端：
 spring mvc
-beetl
+mybatis-plus
+sharding-jdbc

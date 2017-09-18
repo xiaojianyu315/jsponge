@@ -5,9 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/easy-frame.iml" filepath="$PROJECT_DIR$/easy-frame.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-common/frame-common.iml" filepath="$PROJECT_DIR$/frame-common/frame-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-dao/frame-dao.iml" filepath="$PROJECT_DIR$/frame-dao/frame-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame-external-call/frame-external-call.iml" filepath="$PROJECT_DIR$/frame-external-call/frame-external-call.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-generate/frame-generate.iml" filepath="$PROJECT_DIR$/frame-generate/frame-generate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/frame-infra/frame-infra.iml" filepath="$PROJECT_DIR$/frame-infra/frame-infra.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-service/frame-service.iml" filepath="$PROJECT_DIR$/frame-service/frame-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame-tcp-server/frame-tcp-server.iml" filepath="$PROJECT_DIR$/frame-tcp-server/frame-tcp-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-web/frame-web.iml" filepath="$PROJECT_DIR$/frame-web/frame-web.iml" />
     </modules>
   </component>

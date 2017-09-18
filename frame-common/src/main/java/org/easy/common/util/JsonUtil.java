@@ -30,15 +30,4 @@ public class JsonUtil {
         return JSON.parseObject(json, clazz);
     }
 
-
-    public static void main(String[] args) {
-        HashMap<String, Object> map = new HashMap<String, Object>();
-        map.put("key1", 1);
-
-        String jsonStr = JsonUtil.toJson(map);
-        System.out.println(jsonStr);
-        System.out.println("=======================");
-        System.out.println(JsonUtil.toObject(jsonStr, HashMap.class));
-
-    }
 }

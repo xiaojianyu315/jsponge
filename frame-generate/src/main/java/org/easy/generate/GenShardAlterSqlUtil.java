@@ -1,6 +1,7 @@
 package org.easy.generate;
 
 import com.xiaoleilu.hutool.io.FileUtil;
+import org.easy.common.util.StringUtil;
 
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class GenShardAlterSqlUtil {
             int tableStartIndex = i * every_db_table_count;
             int tableEndIndex = tableStartIndex + (every_db_table_count - 1);
             for (int j = tableStartIndex; j <= tableEndIndex; j++) {
-                sql.append("drop TABLE " + db_prefix + "_" + i + ".lc_test_" + j + " ;");
+                sql.append("drop TABLE " + db_prefix + "_" + StringUtil.padRight(i + "", 2, '0') + ".lc_test_"  + StringUtil.padRight(j + "", 3, '0') + " ;");
                 sql.append("\n");
             }
         }
@@ -28,6 +29,5 @@ public class GenShardAlterSqlUtil {
         long entTime = System.currentTimeMillis() - startTime;
         System.out.println("生成完毕, 耗时=" + entTime + "ms");
     }
-
 
 }

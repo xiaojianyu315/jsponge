@@ -38,7 +38,7 @@
                 />
 
                 <rdb:table-rule logic-table="lc_order"
-                                actual-tables="lc_order_${0..99}"
+                                actual-tables="lc_order_"
                                 database-strategy="memberIdDatabaseShardingStrategy"
                                 table-strategy="memberIdTableShardingStrategy"
                 />

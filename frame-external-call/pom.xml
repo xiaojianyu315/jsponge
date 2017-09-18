@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>frame-infra</artifactId>
+    <artifactId>frame-external-call</artifactId>
     <packaging>jar</packaging>
 
-    <name>frame-infra</name>
+    <name>frame-external-call</name>
     <url>http://maven.apache.org</url>
 
     <properties>
